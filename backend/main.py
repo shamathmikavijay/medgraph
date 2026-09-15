@@ -11,6 +11,8 @@ from graph_engine import (
     analyze_medicines
 )
 
+from explanation_engine import generate_explanations
+
 
 app = FastAPI(
     title="MedGraph API",
@@ -22,6 +24,10 @@ app = FastAPI(
 )
 
 
+# ---------------------------------------------------------
+# CORS
+# ---------------------------------------------------------
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -30,6 +36,10 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+
+# ---------------------------------------------------------
+# HOME
+# ---------------------------------------------------------
 
 @app.get("/")
 def home():
@@ -40,6 +50,10 @@ def home():
     }
 
 
+# ---------------------------------------------------------
+# HEALTH CHECK
+# ---------------------------------------------------------
+
 @app.get("/health")
 def health():
     return {
@@ -47,8 +61,13 @@ def health():
     }
 
 
+# ---------------------------------------------------------
+# CONDITIONS
+# ---------------------------------------------------------
+
 @app.get("/conditions")
 def conditions():
+
     condition_list = get_conditions()
 
     return {
@@ -57,8 +76,13 @@ def conditions():
     }
 
 
+# ---------------------------------------------------------
+# MEDICINES FOR A CONDITION
+# ---------------------------------------------------------
+
 @app.get("/medicines")
 def medicines(condition: str):
+
     medicine_list = get_medicines_for_condition(condition)
 
     return {
@@ -67,6 +91,10 @@ def medicines(condition: str):
         "medicines": medicine_list
     }
 
+
+# ---------------------------------------------------------
+# KNOWLEDGE GRAPH STATISTICS
+# ---------------------------------------------------------
 
 @app.get("/graph/stats")
 def graph_stats():
@@ -98,12 +126,33 @@ def graph_stats():
     }
 
 
+# ---------------------------------------------------------
+# ANALYZE TWO MEDICINES
+# ---------------------------------------------------------
+
 @app.get("/analyze")
 def analyze(
     drug_a: str,
     drug_b: str
 ):
-    return analyze_medicines(
+
+    # Step 1:
+    # Analyze the medicines using the knowledge graph.
+    analysis = analyze_medicines(
         drug_a,
         drug_b
     )
+
+    # Step 2:
+    # Generate evidence-grounded explanations.
+    explanations = generate_explanations(
+        analysis
+    )
+
+    # Step 3:
+    # Add explanations to the graph analysis result.
+    analysis["explanations"] = explanations
+
+    # Step 4:
+    # Send everything to the frontend.
+    return analysis
