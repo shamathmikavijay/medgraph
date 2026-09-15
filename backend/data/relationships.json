@@ -1,0 +1,6512 @@
+[
+  {
+    "drug_id": "CHEMBL19",
+    "drug_name": "METHAZOLAMIDE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2326",
+    "target_name": "Carbonic anhydrase 7",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P43166"
+    ],
+    "mechanism_of_action": "Carbonic anhydrase VII inhibitor",
+    "mechanism_record_id": 13,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL17",
+    "drug_name": "DICHLORPHENAMIDE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL261",
+    "target_name": "Carbonic anhydrase 1",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P00915"
+    ],
+    "mechanism_of_action": "Carbonic anhydrase I inhibitor",
+    "mechanism_record_id": 16,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL20",
+    "drug_name": "ACETAZOLAMIDE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL261",
+    "target_name": "Carbonic anhydrase 1",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P00915"
+    ],
+    "mechanism_of_action": "Carbonic anhydrase I inhibitor",
+    "mechanism_record_id": 17,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL19",
+    "drug_name": "METHAZOLAMIDE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL261",
+    "target_name": "Carbonic anhydrase 1",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P00915"
+    ],
+    "mechanism_of_action": "Carbonic anhydrase I inhibitor",
+    "mechanism_record_id": 18,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL14",
+    "drug_name": "CARBACHOL",
+    "relationship": "AGONIST",
+    "target_id": "CHEMBL245",
+    "target_name": "Muscarinic acetylcholine receptor M3",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P20309"
+    ],
+    "mechanism_of_action": "Muscarinic acetylcholine receptor M3 agonist",
+    "mechanism_record_id": 41,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL550",
+    "drug_name": "PILOCARPINE",
+    "relationship": "AGONIST",
+    "target_id": "CHEMBL245",
+    "target_name": "Muscarinic acetylcholine receptor M3",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P20309"
+    ],
+    "mechanism_of_action": "Muscarinic acetylcholine receptor M3 agonist",
+    "mechanism_record_id": 42,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL603",
+    "drug_name": "ZAFIRLUKAST",
+    "relationship": "ANTAGONIST",
+    "target_id": "CHEMBL1798",
+    "target_name": "Cysteinyl leukotriene receptor 1",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "Q9Y271"
+    ],
+    "mechanism_of_action": "Cysteinyl leukotriene receptor 1 antagonist",
+    "mechanism_record_id": 71,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL17",
+    "drug_name": "DICHLORPHENAMIDE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL205",
+    "target_name": "Carbonic anhydrase 2",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P00918"
+    ],
+    "mechanism_of_action": "Carbonic anhydrase II inhibitor",
+    "mechanism_record_id": 89,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL19",
+    "drug_name": "METHAZOLAMIDE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL205",
+    "target_name": "Carbonic anhydrase 2",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P00918"
+    ],
+    "mechanism_of_action": "Carbonic anhydrase II inhibitor",
+    "mechanism_record_id": 90,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL20",
+    "drug_name": "ACETAZOLAMIDE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL205",
+    "target_name": "Carbonic anhydrase 2",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P00918"
+    ],
+    "mechanism_of_action": "Carbonic anhydrase II inhibitor",
+    "mechanism_record_id": 92,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL495",
+    "drug_name": "ALPROSTADIL",
+    "relationship": "AGONIST",
+    "target_id": "CHEMBL1811",
+    "target_name": "Prostaglandin E2 receptor EP1 subtype",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P34995"
+    ],
+    "mechanism_of_action": "Prostanoid EP1 receptor agonist",
+    "mechanism_record_id": 120,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL98",
+    "drug_name": "VORINOSTAT",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL325",
+    "target_name": "Histone deacetylase 1",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "Q13547"
+    ],
+    "mechanism_of_action": "Histone deacetylase 1 inhibitor",
+    "mechanism_record_id": 121,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL98",
+    "drug_name": "VORINOSTAT",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL1829",
+    "target_name": "Histone deacetylase 3",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "O15379"
+    ],
+    "mechanism_of_action": "Histone deacetylase 3 inhibitor",
+    "mechanism_record_id": 190,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL567",
+    "drug_name": "PERPHENAZINE",
+    "relationship": "ANTAGONIST",
+    "target_id": "CHEMBL217",
+    "target_name": "D(2) dopamine receptor",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P14416"
+    ],
+    "mechanism_of_action": "Dopamine D2 receptor antagonist",
+    "mechanism_record_id": 194,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL728",
+    "drug_name": "PROCHLORPERAZINE",
+    "relationship": "ANTAGONIST",
+    "target_id": "CHEMBL217",
+    "target_name": "D(2) dopamine receptor",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P14416"
+    ],
+    "mechanism_of_action": "Dopamine D2 receptor antagonist",
+    "mechanism_record_id": 196,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL14376",
+    "drug_name": "ILOPERIDONE",
+    "relationship": "ANTAGONIST",
+    "target_id": "CHEMBL217",
+    "target_name": "D(2) dopamine receptor",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P14416"
+    ],
+    "mechanism_of_action": "Dopamine D2 receptor antagonist",
+    "mechanism_record_id": 207,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL570",
+    "drug_name": "TRIFLUPROMAZINE",
+    "relationship": "ANTAGONIST",
+    "target_id": "CHEMBL217",
+    "target_name": "D(2) dopamine receptor",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P14416"
+    ],
+    "mechanism_of_action": "Dopamine D2 receptor antagonist",
+    "mechanism_record_id": 214,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL24778",
+    "drug_name": "SILODOSIN",
+    "relationship": "ANTAGONIST",
+    "target_id": "CHEMBL229",
+    "target_name": "Alpha-1A adrenergic receptor",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P35348"
+    ],
+    "mechanism_of_action": "Alpha-1a adrenergic receptor antagonist",
+    "mechanism_record_id": 238,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL64",
+    "drug_name": "ISONIAZID",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL1849",
+    "target_name": "Enoyl-[acyl-carrier-protein] reductase [NADH]",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Mycobacterium tuberculosis",
+    "uniprot_accessions": [
+      "P9WGR1"
+    ],
+    "mechanism_of_action": "Enoyl-[acyl-carrier-protein] reductase inhibitor",
+    "mechanism_record_id": 249,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL710",
+    "drug_name": "FINASTERIDE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL1856",
+    "target_name": "3-oxo-5-alpha-steroid 4-dehydrogenase 2",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P31213"
+    ],
+    "mechanism_of_action": "Steroid 5-alpha-reductase 2 inhibitor",
+    "mechanism_record_id": 266,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL93",
+    "drug_name": "ZILEUTON",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL215",
+    "target_name": "Polyunsaturated fatty acid 5-lipoxygenase",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P09917"
+    ],
+    "mechanism_of_action": "Arachidonate 5-lipoxygenase inhibitor",
+    "mechanism_record_id": 267,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL704",
+    "drug_name": "MESALAMINE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL215",
+    "target_name": "Polyunsaturated fatty acid 5-lipoxygenase",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P09917"
+    ],
+    "mechanism_of_action": "Arachidonate 5-lipoxygenase inhibitor",
+    "mechanism_record_id": 270,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL421",
+    "drug_name": "SULFASALAZINE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL215",
+    "target_name": "Polyunsaturated fatty acid 5-lipoxygenase",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P09917"
+    ],
+    "mechanism_of_action": "Arachidonate 5-lipoxygenase inhibitor",
+    "mechanism_record_id": 272,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL98",
+    "drug_name": "VORINOSTAT",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL1865",
+    "target_name": "Protein deacetylase HDAC6",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "Q9UBN7"
+    ],
+    "mechanism_of_action": "Histone deacetylase 6 inhibitor",
+    "mechanism_record_id": 307,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL24",
+    "drug_name": "ATENOLOL",
+    "relationship": "ANTAGONIST",
+    "target_id": "CHEMBL213",
+    "target_name": "Beta-1 adrenergic receptor",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P08588"
+    ],
+    "mechanism_of_action": "Beta-1 adrenergic receptor antagonist",
+    "mechanism_record_id": 309,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL500",
+    "drug_name": "PINDOLOL",
+    "relationship": "PARTIAL AGONIST",
+    "target_id": "CHEMBL213",
+    "target_name": "Beta-1 adrenergic receptor",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P08588"
+    ],
+    "mechanism_of_action": "Beta-1 adrenergic receptor partial agonist",
+    "mechanism_record_id": 316,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL499",
+    "drug_name": "TIMOLOL",
+    "relationship": "ANTAGONIST",
+    "target_id": "CHEMBL213",
+    "target_name": "Beta-1 adrenergic receptor",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P08588"
+    ],
+    "mechanism_of_action": "Beta-1 adrenergic receptor antagonist",
+    "mechanism_record_id": 331,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL456",
+    "drug_name": "ETHACRYNIC ACID",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL1874",
+    "target_name": "Solute carrier family 12 member 1",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "Q13621"
+    ],
+    "mechanism_of_action": "Sodium-(potassium)-chloride cotransporter 2 inhibitor",
+    "mechanism_record_id": 338,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL35",
+    "drug_name": "FUROSEMIDE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL1874",
+    "target_name": "Solute carrier family 12 member 1",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "Q13621"
+    ],
+    "mechanism_of_action": "Sodium-(potassium)-chloride cotransporter 2 inhibitor",
+    "mechanism_record_id": 340,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL406",
+    "drug_name": "INDAPAMIDE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL1876",
+    "target_name": "Solute carrier family 12 member 3",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P55017"
+    ],
+    "mechanism_of_action": "Thiazide-sensitive sodium-chloride cotransporter inhibitor",
+    "mechanism_record_id": 342,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL435",
+    "drug_name": "HYDROCHLOROTHIAZIDE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL1876",
+    "target_name": "Solute carrier family 12 member 3",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P55017"
+    ],
+    "mechanism_of_action": "Thiazide-sensitive sodium-chloride cotransporter inhibitor",
+    "mechanism_record_id": 350,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL495",
+    "drug_name": "ALPROSTADIL",
+    "relationship": "AGONIST",
+    "target_id": "CHEMBL1881",
+    "target_name": "Prostaglandin E2 receptor EP2 subtype",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P43116"
+    ],
+    "mechanism_of_action": "Prostanoid EP2 receptor agonist",
+    "mechanism_record_id": 358,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL128",
+    "drug_name": "SUMATRIPTAN",
+    "relationship": "AGONIST",
+    "target_id": "CHEMBL1898",
+    "target_name": "5-hydroxytryptamine receptor 1B",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P28222"
+    ],
+    "mechanism_of_action": "Serotonin 1b (5-HT1b) receptor agonist",
+    "mechanism_record_id": 371,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL46",
+    "drug_name": "ONDANSETRON",
+    "relationship": "ANTAGONIST",
+    "target_id": "CHEMBL1899",
+    "target_name": "5-hydroxytryptamine receptor 3A",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P46098"
+    ],
+    "mechanism_of_action": "Serotonin 3a (5-HT3a) receptor antagonist",
+    "mechanism_record_id": 374,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL413",
+    "drug_name": "SIROLIMUS",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL1902",
+    "target_name": "Peptidyl-prolyl cis-trans isomerase FKBP1A",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P62942"
+    ],
+    "mechanism_of_action": "FK506-binding protein 1A inhibitor",
+    "mechanism_record_id": 383,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL433",
+    "drug_name": "VALPROATE SODIUM",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL1911",
+    "target_name": "Succinate-semialdehyde dehydrogenase, mitochondrial",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P51649"
+    ],
+    "mechanism_of_action": "Succinate semialdehyde dehydrogenase inhibitor",
+    "mechanism_record_id": 391,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL109",
+    "drug_name": "VALPROIC ACID",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL1911",
+    "target_name": "Succinate-semialdehyde dehydrogenase, mitochondrial",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P51649"
+    ],
+    "mechanism_of_action": "Succinate semialdehyde dehydrogenase inhibitor",
+    "mechanism_record_id": 392,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL408",
+    "drug_name": "TROGLITAZONE",
+    "relationship": "AGONIST",
+    "target_id": "CHEMBL235",
+    "target_name": "Peroxisome proliferator-activated receptor gamma",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P37231"
+    ],
+    "mechanism_of_action": "Peroxisome proliferator-activated receptor gamma agonist",
+    "mechanism_record_id": 424,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL704",
+    "drug_name": "MESALAMINE",
+    "relationship": "AGONIST",
+    "target_id": "CHEMBL235",
+    "target_name": "Peroxisome proliferator-activated receptor gamma",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P37231"
+    ],
+    "mechanism_of_action": "Peroxisome proliferator-activated receptor gamma agonist",
+    "mechanism_record_id": 426,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL457",
+    "drug_name": "GEMFIBROZIL",
+    "relationship": "AGONIST",
+    "target_id": "CHEMBL239",
+    "target_name": "Peroxisome proliferator-activated receptor alpha",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "Q07869"
+    ],
+    "mechanism_of_action": "Peroxisome proliferator-activated receptor alpha agonist",
+    "mechanism_record_id": 432,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL672",
+    "drug_name": "FENOFIBRATE",
+    "relationship": "AGONIST",
+    "target_id": "CHEMBL239",
+    "target_name": "Peroxisome proliferator-activated receptor alpha",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "Q07869"
+    ],
+    "mechanism_of_action": "Peroxisome proliferator-activated receptor alpha agonist",
+    "mechanism_record_id": 433,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL565",
+    "drug_name": "CLOFIBRATE",
+    "relationship": "AGONIST",
+    "target_id": "CHEMBL239",
+    "target_name": "Peroxisome proliferator-activated receptor alpha",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "Q07869"
+    ],
+    "mechanism_of_action": "Peroxisome proliferator-activated receptor alpha agonist",
+    "mechanism_record_id": 434,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL711",
+    "drug_name": "PHENINDIONE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL1930",
+    "target_name": "Vitamin K epoxide reductase complex subunit 1",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "Q9BQB6"
+    ],
+    "mechanism_of_action": "Vitamin k epoxide reductase complex subunit 1 isoform 1 inhibitor",
+    "mechanism_record_id": 441,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL36",
+    "drug_name": "PYRIMETHAMINE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL1939",
+    "target_name": "Bifunctional dihydrofolate reductase-thymidylate synthase",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Plasmodium falciparum K1",
+    "uniprot_accessions": [
+      "P13922"
+    ],
+    "mechanism_of_action": "Dihydrofolate reductase inhibitor",
+    "mechanism_record_id": 453,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL30",
+    "drug_name": "CIMETIDINE",
+    "relationship": "ANTAGONIST",
+    "target_id": "CHEMBL1941",
+    "target_name": "Histamine H2 receptor",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P25021"
+    ],
+    "mechanism_of_action": "Histamine H2 receptor antagonist",
+    "mechanism_record_id": 461,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL473",
+    "drug_name": "DOFETILIDE",
+    "relationship": "BLOCKER",
+    "target_id": "CHEMBL240",
+    "target_name": "Voltage-gated inwardly rectifying potassium channel KCNH2",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "Q12809"
+    ],
+    "mechanism_of_action": "HERG blocker",
+    "mechanism_record_id": 500,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL544",
+    "drug_name": "MEQUINOL",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL1973",
+    "target_name": "Tyrosinase",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P14679"
+    ],
+    "mechanism_of_action": "Tyrosinase inhibitor",
+    "mechanism_record_id": 509,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL488",
+    "drug_name": "AMINOGLUTETHIMIDE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL1978",
+    "target_name": "Aromatase",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P11511"
+    ],
+    "mechanism_of_action": "Cytochrome P450 19A1 inhibitor",
+    "mechanism_record_id": 526,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL719",
+    "drug_name": "MUPIROCIN",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL1982",
+    "target_name": "Isoleucine--tRNA ligase",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Staphylococcus aureus",
+    "uniprot_accessions": [
+      "P41972"
+    ],
+    "mechanism_of_action": "Isoleucyl-tRNA synthetase inhibitor",
+    "mechanism_record_id": 562,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL128",
+    "drug_name": "SUMATRIPTAN",
+    "relationship": "AGONIST",
+    "target_id": "CHEMBL1983",
+    "target_name": "5-hydroxytryptamine receptor 1D",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P28221"
+    ],
+    "mechanism_of_action": "Serotonin 1d (5-HT1d) receptor agonist",
+    "mechanism_record_id": 575,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL42",
+    "drug_name": "CLOZAPINE",
+    "relationship": "ANTAGONIST",
+    "target_id": "CHEMBL224",
+    "target_name": "5-hydroxytryptamine receptor 2A",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P28223"
+    ],
+    "mechanism_of_action": "Serotonin 2a (5-HT2a) receptor antagonist",
+    "mechanism_record_id": 579,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL71",
+    "drug_name": "CHLORPROMAZINE",
+    "relationship": "ANTAGONIST",
+    "target_id": "CHEMBL224",
+    "target_name": "5-hydroxytryptamine receptor 2A",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P28223"
+    ],
+    "mechanism_of_action": "Serotonin 2a (5-HT2a) receptor antagonist",
+    "mechanism_record_id": 581,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL654",
+    "drug_name": "MIRTAZAPINE",
+    "relationship": "ANTAGONIST",
+    "target_id": "CHEMBL224",
+    "target_name": "5-hydroxytryptamine receptor 2A",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P28223"
+    ],
+    "mechanism_of_action": "Serotonin 2a (5-HT2a) receptor antagonist",
+    "mechanism_record_id": 591,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL715",
+    "drug_name": "OLANZAPINE",
+    "relationship": "ANTAGONIST",
+    "target_id": "CHEMBL224",
+    "target_name": "5-hydroxytryptamine receptor 2A",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P28223"
+    ],
+    "mechanism_of_action": "Serotonin 2a (5-HT2a) receptor antagonist",
+    "mechanism_record_id": 594,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL85",
+    "drug_name": "RISPERIDONE",
+    "relationship": "ANTAGONIST",
+    "target_id": "CHEMBL224",
+    "target_name": "5-hydroxytryptamine receptor 2A",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P28223"
+    ],
+    "mechanism_of_action": "Serotonin 2a (5-HT2a) receptor antagonist",
+    "mechanism_record_id": 601,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL54",
+    "drug_name": "HALOPERIDOL",
+    "relationship": "ANTAGONIST",
+    "target_id": "CHEMBL224",
+    "target_name": "5-hydroxytryptamine receptor 2A",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P28223"
+    ],
+    "mechanism_of_action": "Serotonin 2a (5-HT2a) receptor antagonist",
+    "mechanism_record_id": 602,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL14376",
+    "drug_name": "ILOPERIDONE",
+    "relationship": "ANTAGONIST",
+    "target_id": "CHEMBL224",
+    "target_name": "5-hydroxytryptamine receptor 2A",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P28223"
+    ],
+    "mechanism_of_action": "Serotonin 2a (5-HT2a) receptor antagonist",
+    "mechanism_record_id": 605,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL479",
+    "drug_name": "THIORIDAZINE",
+    "relationship": "ANTAGONIST",
+    "target_id": "CHEMBL224",
+    "target_name": "5-hydroxytryptamine receptor 2A",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P28223"
+    ],
+    "mechanism_of_action": "Serotonin 2a (5-HT2a) receptor antagonist",
+    "mechanism_record_id": 606,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL654",
+    "drug_name": "MIRTAZAPINE",
+    "relationship": "ANTAGONIST",
+    "target_id": "CHEMBL225",
+    "target_name": "5-hydroxytryptamine receptor 2C",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P28335"
+    ],
+    "mechanism_of_action": "Serotonin 2c (5-HT2c) receptor antagonist",
+    "mechanism_record_id": 618,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL715",
+    "drug_name": "OLANZAPINE",
+    "relationship": "ANTAGONIST",
+    "target_id": "CHEMBL225",
+    "target_name": "5-hydroxytryptamine receptor 2C",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P28335"
+    ],
+    "mechanism_of_action": "Serotonin 2c (5-HT2c) receptor antagonist",
+    "mechanism_record_id": 620,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL85",
+    "drug_name": "RISPERIDONE",
+    "relationship": "ANTAGONIST",
+    "target_id": "CHEMBL225",
+    "target_name": "5-hydroxytryptamine receptor 2C",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P28335"
+    ],
+    "mechanism_of_action": "Serotonin 2c (5-HT2c) receptor antagonist",
+    "mechanism_record_id": 623,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL479",
+    "drug_name": "THIORIDAZINE",
+    "relationship": "ANTAGONIST",
+    "target_id": "CHEMBL225",
+    "target_name": "5-hydroxytryptamine receptor 2C",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P28335"
+    ],
+    "mechanism_of_action": "Serotonin 2c (5-HT2c) receptor antagonist",
+    "mechanism_record_id": 624,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL494",
+    "drug_name": "ILOPROST",
+    "relationship": "AGONIST",
+    "target_id": "CHEMBL1995",
+    "target_name": "Prostacyclin receptor",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P43119"
+    ],
+    "mechanism_of_action": "Prostanoid IP receptor agonist",
+    "mechanism_record_id": 665,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL614",
+    "drug_name": "PYRAZINAMIDE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2011",
+    "target_name": "Fatty acid synthase",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Mycobacterium tuberculosis",
+    "uniprot_accessions": [
+      "P95029"
+    ],
+    "mechanism_of_action": "Fatty acid synthase inhibitor",
+    "mechanism_record_id": 678,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL712",
+    "drug_name": "ANISINDIONE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2012",
+    "target_name": "Vitamin K-dependent gamma-carboxylase",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P38435"
+    ],
+    "mechanism_of_action": "Vitamin K-dependent gamma-carboxylase inhibitor",
+    "mechanism_record_id": 679,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL24828",
+    "drug_name": "VANDETANIB",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL267",
+    "target_name": "Proto-oncogene tyrosine-protein kinase Src",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P12931"
+    ],
+    "mechanism_of_action": "Tyrosine-protein kinase SRC inhibitor",
+    "mechanism_record_id": 683,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL405",
+    "drug_name": "AMPHETAMINE",
+    "relationship": "RELEASING AGENT",
+    "target_id": "CHEMBL238",
+    "target_name": "Sodium-dependent dopamine transporter",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "Q01959"
+    ],
+    "mechanism_of_action": "Dopamine transporter releasing agent",
+    "mechanism_record_id": 687,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL501",
+    "drug_name": "AMPHETAMINE SULFATE",
+    "relationship": "RELEASING AGENT",
+    "target_id": "CHEMBL238",
+    "target_name": "Sodium-dependent dopamine transporter",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "Q01959"
+    ],
+    "mechanism_of_action": "Dopamine transporter releasing agent",
+    "mechanism_record_id": 688,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL612",
+    "drug_name": "DEXTROAMPHETAMINE",
+    "relationship": "RELEASING AGENT",
+    "target_id": "CHEMBL238",
+    "target_name": "Sodium-dependent dopamine transporter",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "Q01959"
+    ],
+    "mechanism_of_action": "Dopamine transporter releasing agent",
+    "mechanism_record_id": 693,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL688",
+    "drug_name": "FENTANYL CITRATE",
+    "relationship": "AGONIST",
+    "target_id": "CHEMBL233",
+    "target_name": "Mu-type opioid receptor",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P35372"
+    ],
+    "mechanism_of_action": "Mu opioid receptor agonist",
+    "mechanism_record_id": 712,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL596",
+    "drug_name": "FENTANYL",
+    "relationship": "AGONIST",
+    "target_id": "CHEMBL233",
+    "target_name": "Mu-type opioid receptor",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P35372"
+    ],
+    "mechanism_of_action": "Mu opioid receptor agonist",
+    "mechanism_record_id": 725,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL488",
+    "drug_name": "AMINOGLUTETHIMIDE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2033",
+    "target_name": "Cholesterol side-chain cleavage enzyme, mitochondrial",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P05108"
+    ],
+    "mechanism_of_action": "Cytochrome P450 11A1 inhibitor",
+    "mechanism_record_id": 758,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL635",
+    "drug_name": "PREDNISONE",
+    "relationship": "AGONIST",
+    "target_id": "CHEMBL2034",
+    "target_name": "Glucocorticoid receptor",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P04150"
+    ],
+    "mechanism_of_action": "Glucocorticoid receptor agonist",
+    "mechanism_record_id": 760,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL632",
+    "drug_name": "BETAMETHASONE",
+    "relationship": "AGONIST",
+    "target_id": "CHEMBL2034",
+    "target_name": "Glucocorticoid receptor",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P04150"
+    ],
+    "mechanism_of_action": "Glucocorticoid receptor agonist",
+    "mechanism_record_id": 764,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL131",
+    "drug_name": "PREDNISOLONE",
+    "relationship": "AGONIST",
+    "target_id": "CHEMBL2034",
+    "target_name": "Glucocorticoid receptor",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P04150"
+    ],
+    "mechanism_of_action": "Glucocorticoid receptor agonist",
+    "mechanism_record_id": 775,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL650",
+    "drug_name": "METHYLPREDNISOLONE",
+    "relationship": "AGONIST",
+    "target_id": "CHEMBL2034",
+    "target_name": "Glucocorticoid receptor",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P04150"
+    ],
+    "mechanism_of_action": "Glucocorticoid receptor agonist",
+    "mechanism_record_id": 790,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL129",
+    "drug_name": "ZIDOVUDINE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL247",
+    "target_name": "Human immunodeficiency virus type 1 reverse transcriptase",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Human immunodeficiency virus 1",
+    "uniprot_accessions": [
+      "Q72547"
+    ],
+    "mechanism_of_action": "Human immunodeficiency virus type 1 reverse transcriptase inhibitor",
+    "mechanism_record_id": 828,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL57",
+    "drug_name": "NEVIRAPINE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL247",
+    "target_name": "Human immunodeficiency virus type 1 reverse transcriptase",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Human immunodeficiency virus 1",
+    "uniprot_accessions": [
+      "Q72547"
+    ],
+    "mechanism_of_action": "Human immunodeficiency virus type 1 reverse transcriptase inhibitor",
+    "mechanism_record_id": 830,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL141",
+    "drug_name": "LAMIVUDINE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL247",
+    "target_name": "Human immunodeficiency virus type 1 reverse transcriptase",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Human immunodeficiency virus 1",
+    "uniprot_accessions": [
+      "Q72547"
+    ],
+    "mechanism_of_action": "Human immunodeficiency virus type 1 reverse transcriptase inhibitor",
+    "mechanism_record_id": 834,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL135",
+    "drug_name": "ESTRADIOL",
+    "relationship": "AGONIST",
+    "target_id": "CHEMBL206",
+    "target_name": "Estrogen receptor",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P03372"
+    ],
+    "mechanism_of_action": "Estrogen receptor alpha agonist",
+    "mechanism_record_id": 858,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL691",
+    "drug_name": "ETHINYL ESTRADIOL",
+    "relationship": "AGONIST",
+    "target_id": "CHEMBL206",
+    "target_name": "Estrogen receptor",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P03372"
+    ],
+    "mechanism_of_action": "Estrogen receptor alpha agonist",
+    "mechanism_record_id": 862,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL411",
+    "drug_name": "DIETHYLSTILBESTROL",
+    "relationship": "AGONIST",
+    "target_id": "CHEMBL206",
+    "target_name": "Estrogen receptor",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P03372"
+    ],
+    "mechanism_of_action": "Estrogen receptor alpha agonist",
+    "mechanism_record_id": 867,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL612",
+    "drug_name": "DEXTROAMPHETAMINE",
+    "relationship": "RELEASING AGENT",
+    "target_id": "CHEMBL222",
+    "target_name": "Sodium-dependent noradrenaline transporter",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P23975"
+    ],
+    "mechanism_of_action": "Norepinephrine transporter releasing agent",
+    "mechanism_record_id": 891,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL501",
+    "drug_name": "AMPHETAMINE SULFATE",
+    "relationship": "RELEASING AGENT",
+    "target_id": "CHEMBL222",
+    "target_name": "Sodium-dependent noradrenaline transporter",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P23975"
+    ],
+    "mechanism_of_action": "Norepinephrine transporter releasing agent",
+    "mechanism_record_id": 900,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL405",
+    "drug_name": "AMPHETAMINE",
+    "relationship": "RELEASING AGENT",
+    "target_id": "CHEMBL222",
+    "target_name": "Sodium-dependent noradrenaline transporter",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P23975"
+    ],
+    "mechanism_of_action": "Norepinephrine transporter releasing agent",
+    "mechanism_record_id": 902,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL18442",
+    "drug_name": "PLERIXAFOR",
+    "relationship": "PARTIAL AGONIST",
+    "target_id": "CHEMBL2107",
+    "target_name": "C-X-C chemokine receptor type 4",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P61073"
+    ],
+    "mechanism_of_action": "C-X-C chemokine receptor type 4 partial agonist",
+    "mechanism_record_id": 923,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL17",
+    "drug_name": "DICHLORPHENAMIDE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL3242",
+    "target_name": "Carbonic anhydrase 12",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "O43570"
+    ],
+    "mechanism_of_action": "Carbonic anhydrase XII inhibitor",
+    "mechanism_record_id": 927,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL20",
+    "drug_name": "ACETAZOLAMIDE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL3242",
+    "target_name": "Carbonic anhydrase 12",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "O43570"
+    ],
+    "mechanism_of_action": "Carbonic anhydrase XII inhibitor",
+    "mechanism_record_id": 928,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL513",
+    "drug_name": "CARMUSTINE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2755",
+    "target_name": "Glutathione reductase, mitochondrial",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P00390"
+    ],
+    "mechanism_of_action": "Glutathione reductase inhibitor",
+    "mechanism_record_id": 933,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL606",
+    "drug_name": "MISOPROSTOL",
+    "relationship": "AGONIST",
+    "target_id": "CHEMBL3710",
+    "target_name": "Prostaglandin E2 receptor EP3 subtype",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P43115"
+    ],
+    "mechanism_of_action": "Prostanoid EP3 receptor agonist",
+    "mechanism_record_id": 953,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL17",
+    "drug_name": "DICHLORPHENAMIDE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL3729",
+    "target_name": "Carbonic anhydrase 4",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P22748"
+    ],
+    "mechanism_of_action": "Carbonic anhydrase IV inhibitor",
+    "mechanism_record_id": 956,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL19",
+    "drug_name": "METHAZOLAMIDE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL3729",
+    "target_name": "Carbonic anhydrase 4",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P22748"
+    ],
+    "mechanism_of_action": "Carbonic anhydrase IV inhibitor",
+    "mechanism_record_id": 957,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL20",
+    "drug_name": "ACETAZOLAMIDE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL3729",
+    "target_name": "Carbonic anhydrase 4",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P22748"
+    ],
+    "mechanism_of_action": "Carbonic anhydrase IV inhibitor",
+    "mechanism_record_id": 959,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL24828",
+    "drug_name": "VANDETANIB",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL4601",
+    "target_name": "Protein-tyrosine kinase 6",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "Q13882"
+    ],
+    "mechanism_of_action": "Tyrosine-protein kinase BRK inhibitor",
+    "mechanism_record_id": 984,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL717",
+    "drug_name": "MEDROXYPROGESTERONE ACETATE",
+    "relationship": "AGONIST",
+    "target_id": "CHEMBL208",
+    "target_name": "Progesterone receptor",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P06401"
+    ],
+    "mechanism_of_action": "Progesterone receptor agonist",
+    "mechanism_record_id": 1014,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL103",
+    "drug_name": "PROGESTERONE",
+    "relationship": "AGONIST",
+    "target_id": "CHEMBL208",
+    "target_name": "Progesterone receptor",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P06401"
+    ],
+    "mechanism_of_action": "Progesterone receptor agonist",
+    "mechanism_record_id": 1018,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL24828",
+    "drug_name": "VANDETANIB",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL4128",
+    "target_name": "Angiopoietin-1 receptor",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "Q02763"
+    ],
+    "mechanism_of_action": "Tyrosine-protein kinase TIE-2 inhibitor",
+    "mechanism_record_id": 1034,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL3",
+    "drug_name": "NICOTINE",
+    "relationship": "AGONIST",
+    "target_id": "CHEMBL1907589",
+    "target_name": "Neuronal acetylcholine receptor; alpha4/beta2",
+    "target_type": "PROTEIN COMPLEX",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P17787",
+      "P43681"
+    ],
+    "mechanism_of_action": "Neuronal acetylcholine receptor; alpha4/beta2 agonist",
+    "mechanism_record_id": 1044,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL675",
+    "drug_name": "ALENDRONATE SODIUM",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL1782",
+    "target_name": "Farnesyl pyrophosphate synthase",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P14324"
+    ],
+    "mechanism_of_action": "Farnesyl diphosphate synthase inhibitor",
+    "mechanism_record_id": 1047,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL503",
+    "drug_name": "LOVASTATIN",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL402",
+    "target_name": "3-hydroxy-3-methylglutaryl-coenzyme A reductase",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P04035"
+    ],
+    "mechanism_of_action": "HMG-CoA reductase inhibitor",
+    "mechanism_record_id": 1052,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL690",
+    "drug_name": "PRAVASTATIN SODIUM",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL402",
+    "target_name": "3-hydroxy-3-methylglutaryl-coenzyme A reductase",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P04035"
+    ],
+    "mechanism_of_action": "HMG-CoA reductase inhibitor",
+    "mechanism_record_id": 1057,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL480",
+    "drug_name": "LANSOPRAZOLE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2095173",
+    "target_name": "Potassium-transporting ATPase",
+    "target_type": "PROTEIN COMPLEX",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P20648",
+      "P51164"
+    ],
+    "mechanism_of_action": "Potassium-transporting ATPase inhibitor",
+    "mechanism_record_id": 1085,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL18",
+    "drug_name": "ETHOXZOLAMIDE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2095180",
+    "target_name": "Carbonic anhydrase",
+    "target_type": "PROTEIN FAMILY",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "O43570",
+      "P00915",
+      "P00918",
+      "P07451",
+      "P22748",
+      "P23280",
+      "P35218",
+      "P43166",
+      "Q16790",
+      "Q8N1Q1",
+      "Q9ULX7",
+      "Q9Y2D0"
+    ],
+    "mechanism_of_action": "Carbonic anhydrase inhibitor",
+    "mechanism_record_id": 1088,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL19019",
+    "drug_name": "NALTREXONE",
+    "relationship": "ANTAGONIST",
+    "target_id": "CHEMBL2095181",
+    "target_name": "Opioid receptors; mu/kappa/delta",
+    "target_type": "PROTEIN FAMILY",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P35372",
+      "P41143",
+      "P41145"
+    ],
+    "mechanism_of_action": "Opioid receptors; mu/kappa/delta antagonist",
+    "mechanism_record_id": 1092,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL428647",
+    "drug_name": "PACLITAXEL",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2095182",
+    "target_name": "Tubulin",
+    "target_type": "PROTEIN COMPLEX GROUP",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P04350",
+      "P07437",
+      "P0DPH7",
+      "P68363",
+      "P68366",
+      "P68371",
+      "Q13509",
+      "Q13885",
+      "Q3ZCM7",
+      "Q6PEY2",
+      "Q71U36",
+      "Q9BQE3",
+      "Q9BUF5",
+      "Q9BVA1",
+      "Q9H4B7"
+    ],
+    "mechanism_of_action": "Tubulin inhibitor",
+    "mechanism_record_id": 1102,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL107",
+    "drug_name": "COLCHICINE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2095182",
+    "target_name": "Tubulin",
+    "target_type": "PROTEIN COMPLEX GROUP",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P04350",
+      "P07437",
+      "P0DPH7",
+      "P68363",
+      "P68366",
+      "P68371",
+      "Q13509",
+      "Q13885",
+      "Q3ZCM7",
+      "Q6PEY2",
+      "Q71U36",
+      "Q9BQE3",
+      "Q9BUF5",
+      "Q9BVA1",
+      "Q9H4B7"
+    ],
+    "mechanism_of_action": "Tubulin inhibitor",
+    "mechanism_record_id": 1106,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL723",
+    "drug_name": "CARVEDILOL",
+    "relationship": "ANTAGONIST",
+    "target_id": "CHEMBL2094118",
+    "target_name": "Adrenergic receptor beta",
+    "target_type": "PROTEIN FAMILY",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P07550",
+      "P08588",
+      "P13945"
+    ],
+    "mechanism_of_action": "Adrenergic receptor beta antagonist",
+    "mechanism_record_id": 1120,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL654",
+    "drug_name": "MIRTAZAPINE",
+    "relationship": "ANTAGONIST",
+    "target_id": "CHEMBL2095158",
+    "target_name": "Adrenergic receptor alpha-2",
+    "target_type": "PROTEIN FAMILY",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P08913",
+      "P18089",
+      "P18825"
+    ],
+    "mechanism_of_action": "Adrenergic receptor alpha-2 antagonist",
+    "mechanism_record_id": 1141,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL134",
+    "drug_name": "CLONIDINE",
+    "relationship": "AGONIST",
+    "target_id": "CHEMBL2095158",
+    "target_name": "Adrenergic receptor alpha-2",
+    "target_type": "PROTEIN FAMILY",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P08913",
+      "P18089",
+      "P18825"
+    ],
+    "mechanism_of_action": "Adrenergic receptor alpha-2 agonist",
+    "mechanism_record_id": 1145,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL459",
+    "drug_name": "METHYLDOPA",
+    "relationship": "AGONIST",
+    "target_id": "CHEMBL2095158",
+    "target_name": "Adrenergic receptor alpha-2",
+    "target_type": "PROTEIN FAMILY",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P08913",
+      "P18089",
+      "P18825"
+    ],
+    "mechanism_of_action": "Adrenergic receptor alpha-2 agonist",
+    "mechanism_record_id": 1147,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL677",
+    "drug_name": "LEVONORDEFRIN",
+    "relationship": "AGONIST",
+    "target_id": "CHEMBL2095158",
+    "target_name": "Adrenergic receptor alpha-2",
+    "target_type": "PROTEIN FAMILY",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P08913",
+      "P18089",
+      "P18825"
+    ],
+    "mechanism_of_action": "Adrenergic receptor alpha-2 agonist",
+    "mechanism_record_id": 1149,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL723",
+    "drug_name": "CARVEDILOL",
+    "relationship": "ANTAGONIST",
+    "target_id": "CHEMBL2094251",
+    "target_name": "Adrenergic receptor alpha-1",
+    "target_type": "PROTEIN FAMILY",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P25100",
+      "P35348",
+      "P35368"
+    ],
+    "mechanism_of_action": "Adrenergic receptor alpha-1 antagonist",
+    "mechanism_record_id": 1160,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL112",
+    "drug_name": "ACETAMINOPHEN",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2094253",
+    "target_name": "Cyclooxygenase",
+    "target_type": "PROTEIN FAMILY",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P23219",
+      "P35354"
+    ],
+    "mechanism_of_action": "Cyclooxygenase inhibitor",
+    "mechanism_record_id": 1172,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL421",
+    "drug_name": "SULFASALAZINE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2094253",
+    "target_name": "Cyclooxygenase",
+    "target_type": "PROTEIN FAMILY",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P23219",
+      "P35354"
+    ],
+    "mechanism_of_action": "Cyclooxygenase inhibitor",
+    "mechanism_record_id": 1179,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL521",
+    "drug_name": "IBUPROFEN",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2094253",
+    "target_name": "Cyclooxygenase",
+    "target_type": "PROTEIN FAMILY",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P23219",
+      "P35354"
+    ],
+    "mechanism_of_action": "Cyclooxygenase inhibitor",
+    "mechanism_record_id": 1180,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL25",
+    "drug_name": "ASPIRIN",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2094253",
+    "target_name": "Cyclooxygenase",
+    "target_type": "PROTEIN FAMILY",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P23219",
+      "P35354"
+    ],
+    "mechanism_of_action": "Cyclooxygenase inhibitor",
+    "mechanism_record_id": 1187,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL6",
+    "drug_name": "INDOMETHACIN",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2094253",
+    "target_name": "Cyclooxygenase",
+    "target_type": "PROTEIN FAMILY",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P23219",
+      "P35354"
+    ],
+    "mechanism_of_action": "Cyclooxygenase inhibitor",
+    "mechanism_record_id": 1192,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL563",
+    "drug_name": "FLURBIPROFEN",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2094253",
+    "target_name": "Cyclooxygenase",
+    "target_type": "PROTEIN FAMILY",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P23219",
+      "P35354"
+    ],
+    "mechanism_of_action": "Cyclooxygenase inhibitor",
+    "mechanism_record_id": 1194,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL15770",
+    "drug_name": "SULINDAC",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2094253",
+    "target_name": "Cyclooxygenase",
+    "target_type": "PROTEIN FAMILY",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P23219",
+      "P35354"
+    ],
+    "mechanism_of_action": "Cyclooxygenase inhibitor",
+    "mechanism_record_id": 1196,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL686",
+    "drug_name": "MEFENAMIC ACID",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2094253",
+    "target_name": "Cyclooxygenase",
+    "target_type": "PROTEIN FAMILY",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P23219",
+      "P35354"
+    ],
+    "mechanism_of_action": "Cyclooxygenase inhibitor",
+    "mechanism_record_id": 1201,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL704",
+    "drug_name": "MESALAMINE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2094253",
+    "target_name": "Cyclooxygenase",
+    "target_type": "PROTEIN FAMILY",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P23219",
+      "P35354"
+    ],
+    "mechanism_of_action": "Cyclooxygenase inhibitor",
+    "mechanism_record_id": 1202,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL101",
+    "drug_name": "PHENYLBUTAZONE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2094253",
+    "target_name": "Cyclooxygenase",
+    "target_type": "PROTEIN FAMILY",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P23219",
+      "P35354"
+    ],
+    "mechanism_of_action": "Cyclooxygenase inhibitor",
+    "mechanism_record_id": 1205,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL527",
+    "drug_name": "PIROXICAM",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2094253",
+    "target_name": "Cyclooxygenase",
+    "target_type": "PROTEIN FAMILY",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P23219",
+      "P35354"
+    ],
+    "mechanism_of_action": "Cyclooxygenase inhibitor",
+    "mechanism_record_id": 1206,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL571",
+    "drug_name": "KETOPROFEN",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2094253",
+    "target_name": "Cyclooxygenase",
+    "target_type": "PROTEIN FAMILY",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P23219",
+      "P35354"
+    ],
+    "mechanism_of_action": "Cyclooxygenase inhibitor",
+    "mechanism_record_id": 1208,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL628",
+    "drug_name": "PENTOXIFYLLINE",
+    "relationship": "ANTAGONIST",
+    "target_id": "CHEMBL2094257",
+    "target_name": "Adenosine A2 receptor",
+    "target_type": "PROTEIN FAMILY",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P29274",
+      "P29275"
+    ],
+    "mechanism_of_action": "Adenosine A2 receptor antagonist",
+    "mechanism_record_id": 1211,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL113",
+    "drug_name": "CAFFEINE",
+    "relationship": "ANTAGONIST",
+    "target_id": "CHEMBL2111329",
+    "target_name": "Adenosine receptor",
+    "target_type": "PROTEIN FAMILY",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P0DMS8",
+      "P29274",
+      "P29275",
+      "P30542"
+    ],
+    "mechanism_of_action": "Adenosine receptor antagonist",
+    "mechanism_record_id": 1214,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL477",
+    "drug_name": "ADENOSINE",
+    "relationship": "AGONIST",
+    "target_id": "CHEMBL2111329",
+    "target_name": "Adenosine receptor",
+    "target_type": "PROTEIN FAMILY",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P0DMS8",
+      "P29274",
+      "P29275",
+      "P30542"
+    ],
+    "mechanism_of_action": "Adenosine receptor agonist",
+    "mechanism_record_id": 1215,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL6622",
+    "drug_name": "ISOSORBIDE DINITRATE",
+    "relationship": "ACTIVATOR",
+    "target_id": "CHEMBL2111348",
+    "target_name": "Soluble guanylate cyclase",
+    "target_type": "PROTEIN COMPLEX GROUP",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "O75343",
+      "P33402",
+      "Q02108",
+      "Q02153"
+    ],
+    "mechanism_of_action": "Soluble guanylate cyclase activator",
+    "mechanism_record_id": 1222,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL727",
+    "drug_name": "THIOGUANINE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2111369",
+    "target_name": "Inosine-5'-monophosphate dehydrogenase (IMPDH)",
+    "target_type": "PROTEIN FAMILY",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P12268",
+      "P20839"
+    ],
+    "mechanism_of_action": "Inosine-5'-monophosphate dehydrogenase (IMPDH) inhibitor",
+    "mechanism_record_id": 1226,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL472",
+    "drug_name": "GLYBURIDE",
+    "relationship": "BLOCKER",
+    "target_id": "CHEMBL2096972",
+    "target_name": "Sulfonylurea receptor 1, Kir6.2",
+    "target_type": "PROTEIN COMPLEX",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "Q09428",
+      "Q14654"
+    ],
+    "mechanism_of_action": "Sulfonylurea receptor 1, Kir6.2 blocker",
+    "mechanism_record_id": 1246,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL498",
+    "drug_name": "CHLORPROPAMIDE",
+    "relationship": "BLOCKER",
+    "target_id": "CHEMBL2096972",
+    "target_name": "Sulfonylurea receptor 1, Kir6.2",
+    "target_type": "PROTEIN COMPLEX",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "Q09428",
+      "Q14654"
+    ],
+    "mechanism_of_action": "Sulfonylurea receptor 1, Kir6.2 blocker",
+    "mechanism_record_id": 1247,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL585",
+    "drug_name": "TRIAMTERENE",
+    "relationship": "BLOCKER",
+    "target_id": "CHEMBL2107836",
+    "target_name": "Amiloride-sensitive sodium channel, ENaC",
+    "target_type": "PROTEIN COMPLEX",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P37088",
+      "P51168",
+      "P51170"
+    ],
+    "mechanism_of_action": "Amiloride-sensitive sodium channel, ENaC blocker",
+    "mechanism_record_id": 1255,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL467",
+    "drug_name": "HYDROXYUREA",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2095215",
+    "target_name": "Ribonucleoside-diphosphate reductase RR1",
+    "target_type": "PROTEIN COMPLEX GROUP",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P23921",
+      "P31350",
+      "Q7LG56"
+    ],
+    "mechanism_of_action": "Ribonucleoside-diphosphate reductase RR1 inhibitor",
+    "mechanism_record_id": 1258,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL24828",
+    "drug_name": "VANDETANIB",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2095227",
+    "target_name": "Vascular endothelial growth factor receptor",
+    "target_type": "PROTEIN FAMILY",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P17948",
+      "P35916",
+      "P35968"
+    ],
+    "mechanism_of_action": "Vascular endothelial growth factor receptor inhibitor",
+    "mechanism_record_id": 1265,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL636",
+    "drug_name": "RIVASTIGMINE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2095233",
+    "target_name": "Cholinesterases; ACHE & BCHE",
+    "target_type": "SELECTIVITY GROUP",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P06276",
+      "P22303"
+    ],
+    "mechanism_of_action": "Cholinesterases; ACHE & BCHE inhibitor",
+    "mechanism_record_id": 1286,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL559",
+    "drug_name": "DEXTROTHYROXINE",
+    "relationship": "AGONIST",
+    "target_id": "CHEMBL2111462",
+    "target_name": "Thyroid hormone receptor",
+    "target_type": "PROTEIN COMPLEX",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P10827",
+      "P10828"
+    ],
+    "mechanism_of_action": "Thyroid hormone receptor agonist",
+    "mechanism_record_id": 1302,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL701",
+    "drug_name": "BACLOFEN",
+    "relationship": "AGONIST",
+    "target_id": "CHEMBL2111463",
+    "target_name": "GABA-B receptor",
+    "target_type": "PROTEIN COMPLEX",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "O75899",
+      "Q9UBS5"
+    ],
+    "mechanism_of_action": "GABA-B receptor agonist",
+    "mechanism_record_id": 1306,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL409",
+    "drug_name": "BICALUTAMIDE",
+    "relationship": "ANTAGONIST",
+    "target_id": "CHEMBL1871",
+    "target_name": "Androgen receptor",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P10275"
+    ],
+    "mechanism_of_action": "Androgen Receptor antagonist",
+    "mechanism_record_id": 1320,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL714",
+    "drug_name": "ALBUTEROL",
+    "relationship": "AGONIST",
+    "target_id": "CHEMBL210",
+    "target_name": "Beta-2 adrenergic receptor",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P07550"
+    ],
+    "mechanism_of_action": "Beta-2 adrenergic receptor agonist",
+    "mechanism_record_id": 1338,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL500",
+    "drug_name": "PINDOLOL",
+    "relationship": "PARTIAL AGONIST",
+    "target_id": "CHEMBL210",
+    "target_name": "Beta-2 adrenergic receptor",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P07550"
+    ],
+    "mechanism_of_action": "Beta-2 adrenergic receptor partial agonist",
+    "mechanism_record_id": 1360,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL499",
+    "drug_name": "TIMOLOL",
+    "relationship": "ANTAGONIST",
+    "target_id": "CHEMBL210",
+    "target_name": "Beta-2 adrenergic receptor",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P07550"
+    ],
+    "mechanism_of_action": "Beta-2 adrenergic receptor antagonist",
+    "mechanism_record_id": 1365,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL496",
+    "drug_name": "HEXACHLOROPHENE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2364678",
+    "target_name": "Enoyl-[acyl-carrier-protein] reductase [NADH] FabI",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Bacteria",
+    "uniprot_accessions": [
+      "P0AEK4"
+    ],
+    "mechanism_of_action": "Bacterial enoyl-[acyl-carrier-protein] reductase inhibitor",
+    "mechanism_record_id": 1399,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL562",
+    "drug_name": "GRISEOFULVIN",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2364703",
+    "target_name": "Tubulin",
+    "target_type": "PROTEIN COMPLEX GROUP",
+    "target_organism": "Trichophyton",
+    "uniprot_accessions": [
+      "F2SG63",
+      "F2SZ02",
+      "F2SZD3"
+    ],
+    "mechanism_of_action": "Tubulin inhibitor",
+    "mechanism_record_id": 1433,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL685",
+    "drug_name": "MEBENDAZOLE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2364704",
+    "target_name": "Tubulin",
+    "target_type": "PROTEIN COMPLEX GROUP",
+    "target_organism": "Taeniidae",
+    "uniprot_accessions": [
+      "C4PKY4",
+      "C4PKZ2",
+      "C4PKZ6"
+    ],
+    "mechanism_of_action": "Tubulin inhibitor",
+    "mechanism_record_id": 1434,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL625",
+    "drug_name": "THIABENDAZOLE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2364704",
+    "target_name": "Tubulin",
+    "target_type": "PROTEIN COMPLEX GROUP",
+    "target_organism": "Taeniidae",
+    "uniprot_accessions": [
+      "C4PKY4",
+      "C4PKZ2",
+      "C4PKZ6"
+    ],
+    "mechanism_of_action": "Tubulin inhibitor",
+    "mechanism_record_id": 1435,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL685",
+    "drug_name": "MEBENDAZOLE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2364705",
+    "target_name": "Tubulin",
+    "target_type": "PROTEIN COMPLEX GROUP",
+    "target_organism": "Nematoda",
+    "uniprot_accessions": [
+      "F1L005",
+      "F1L4P8",
+      "F1L5G6",
+      "F1L7U3",
+      "F1L7Y0",
+      "F1L8A5",
+      "F1LCS0"
+    ],
+    "mechanism_of_action": "Tubulin inhibitor",
+    "mechanism_record_id": 1438,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL625",
+    "drug_name": "THIABENDAZOLE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2364705",
+    "target_name": "Tubulin",
+    "target_type": "PROTEIN COMPLEX GROUP",
+    "target_organism": "Nematoda",
+    "uniprot_accessions": [
+      "F1L005",
+      "F1L4P8",
+      "F1L5G6",
+      "F1L7U3",
+      "F1L7Y0",
+      "F1L8A5",
+      "F1LCS0"
+    ],
+    "mechanism_of_action": "Tubulin inhibitor",
+    "mechanism_record_id": 1439,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL104",
+    "drug_name": "CLOTRIMAZOLE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL1780",
+    "target_name": "Lanosterol 14-alpha demethylase",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Candida albicans (strain SC5314 / ATCC MYA-2876) (Yeast)",
+    "uniprot_accessions": [
+      "P10613"
+    ],
+    "mechanism_of_action": "Cytochrome P450 51 inhibitor",
+    "mechanism_record_id": 1442,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL638",
+    "drug_name": "VORICONAZOLE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL1780",
+    "target_name": "Lanosterol 14-alpha demethylase",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Candida albicans (strain SC5314 / ATCC MYA-2876) (Yeast)",
+    "uniprot_accessions": [
+      "P10613"
+    ],
+    "mechanism_of_action": "Cytochrome P450 51 inhibitor",
+    "mechanism_record_id": 1444,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL91",
+    "drug_name": "MICONAZOLE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL1780",
+    "target_name": "Lanosterol 14-alpha demethylase",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Candida albicans (strain SC5314 / ATCC MYA-2876) (Yeast)",
+    "uniprot_accessions": [
+      "P10613"
+    ],
+    "mechanism_of_action": "Cytochrome P450 51 inhibitor",
+    "mechanism_record_id": 1446,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL106",
+    "drug_name": "FLUCONAZOLE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL1780",
+    "target_name": "Lanosterol 14-alpha demethylase",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Candida albicans (strain SC5314 / ATCC MYA-2876) (Yeast)",
+    "uniprot_accessions": [
+      "P10613"
+    ],
+    "mechanism_of_action": "Cytochrome P450 51 inhibitor",
+    "mechanism_record_id": 1450,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL122",
+    "drug_name": "ROFECOXIB",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL230",
+    "target_name": "Prostaglandin G/H synthase 2",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P35354"
+    ],
+    "mechanism_of_action": "Cyclooxygenase-2 inhibitor",
+    "mechanism_record_id": 1457,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL599",
+    "drug_name": "MELOXICAM",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL230",
+    "target_name": "Prostaglandin G/H synthase 2",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P35354"
+    ],
+    "mechanism_of_action": "Cyclooxygenase-2 inhibitor",
+    "mechanism_record_id": 1459,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL118",
+    "drug_name": "CELECOXIB",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL230",
+    "target_name": "Prostaglandin G/H synthase 2",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P35354"
+    ],
+    "mechanism_of_action": "Cyclooxygenase-2 inhibitor",
+    "mechanism_record_id": 1462,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL622",
+    "drug_name": "ETODOLAC",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL230",
+    "target_name": "Prostaglandin G/H synthase 2",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P35354"
+    ],
+    "mechanism_of_action": "Cyclooxygenase-2 inhibitor",
+    "mechanism_record_id": 1463,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL465",
+    "drug_name": "DRONABINOL",
+    "relationship": "AGONIST",
+    "target_id": "CHEMBL218",
+    "target_name": "Cannabinoid receptor 1",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P21554"
+    ],
+    "mechanism_of_action": "Cannabinoid CB1 receptor agonist",
+    "mechanism_record_id": 1466,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL612",
+    "drug_name": "DEXTROAMPHETAMINE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL1893",
+    "target_name": "Synaptic vesicular amine transporter",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "Q05940"
+    ],
+    "mechanism_of_action": "Synaptic vesicular amine transporter inhibitor",
+    "mechanism_record_id": 1486,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL98",
+    "drug_name": "VORINOSTAT",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL1937",
+    "target_name": "Histone deacetylase 2",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "Q92769"
+    ],
+    "mechanism_of_action": "Histone deacetylase 2 inhibitor",
+    "mechanism_record_id": 1489,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL282042",
+    "drug_name": "SAQUINAVIR MESYLATE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL243",
+    "target_name": "Human immunodeficiency virus type 1 protease",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Human immunodeficiency virus 1",
+    "uniprot_accessions": [
+      "Q72874"
+    ],
+    "mechanism_of_action": "Human immunodeficiency virus type 1 protease inhibitor",
+    "mechanism_record_id": 1490,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL116",
+    "drug_name": "AMPRENAVIR",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL243",
+    "target_name": "Human immunodeficiency virus type 1 protease",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Human immunodeficiency virus 1",
+    "uniprot_accessions": [
+      "Q72874"
+    ],
+    "mechanism_of_action": "Human immunodeficiency virus type 1 protease inhibitor",
+    "mechanism_record_id": 1493,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL114",
+    "drug_name": "SAQUINAVIR",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL243",
+    "target_name": "Human immunodeficiency virus type 1 protease",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Human immunodeficiency virus 1",
+    "uniprot_accessions": [
+      "Q72874"
+    ],
+    "mechanism_of_action": "Human immunodeficiency virus type 1 protease inhibitor",
+    "mechanism_record_id": 1495,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL24828",
+    "drug_name": "VANDETANIB",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2041",
+    "target_name": "Proto-oncogene tyrosine-protein kinase receptor Ret",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P07949"
+    ],
+    "mechanism_of_action": "Tyrosine-protein kinase receptor RET inhibitor",
+    "mechanism_record_id": 1519,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL24828",
+    "drug_name": "VANDETANIB",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2363043",
+    "target_name": "Ephrin receptor",
+    "target_type": "PROTEIN FAMILY",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "O15197",
+      "P21709",
+      "P29317",
+      "P29320",
+      "P29322",
+      "P29323",
+      "P54753",
+      "P54756",
+      "P54760",
+      "P54762",
+      "P54764",
+      "Q15375",
+      "Q5JZY3",
+      "Q9UF33"
+    ],
+    "mechanism_of_action": "Ephrin receptor inhibitor",
+    "mechanism_record_id": 1541,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL141",
+    "drug_name": "LAMIVUDINE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2363048",
+    "target_name": "DNA",
+    "target_type": "NUCLEIC-ACID",
+    "target_organism": "Hepatitis B virus",
+    "uniprot_accessions": [],
+    "mechanism_of_action": "DNA inhibitor",
+    "mechanism_record_id": 1543,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL141",
+    "drug_name": "LAMIVUDINE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2363046",
+    "target_name": "DNA",
+    "target_type": "NUCLEIC-ACID",
+    "target_organism": "Human immunodeficiency virus 1",
+    "uniprot_accessions": [],
+    "mechanism_of_action": "DNA inhibitor",
+    "mechanism_record_id": 1544,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL141",
+    "drug_name": "LAMIVUDINE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2363047",
+    "target_name": "DNA",
+    "target_type": "NUCLEIC-ACID",
+    "target_organism": "Human immunodeficiency virus 2",
+    "uniprot_accessions": [],
+    "mechanism_of_action": "DNA inhibitor",
+    "mechanism_record_id": 1545,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL24828",
+    "drug_name": "VANDETANIB",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2363049",
+    "target_name": "Epidermal growth factor receptor",
+    "target_type": "PROTEIN FAMILY",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P00533",
+      "P04626",
+      "P21860",
+      "Q15303"
+    ],
+    "mechanism_of_action": "Epidermal growth factor receptor inhibitor",
+    "mechanism_record_id": 1546,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL497",
+    "drug_name": "CLIOQUINOL",
+    "relationship": "CHELATING AGENT",
+    "target_id": "CHEMBL2363056",
+    "target_name": "Zinc",
+    "target_type": "METAL",
+    "target_organism": null,
+    "uniprot_accessions": [],
+    "mechanism_of_action": "Zinc chelating agent",
+    "mechanism_record_id": 1558,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL497",
+    "drug_name": "CLIOQUINOL",
+    "relationship": "CHELATING AGENT",
+    "target_id": "CHEMBL2363057",
+    "target_name": "Copper",
+    "target_type": "METAL",
+    "target_organism": null,
+    "uniprot_accessions": [],
+    "mechanism_of_action": "Copper chelating agent",
+    "mechanism_record_id": 1561,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL497",
+    "drug_name": "CLIOQUINOL",
+    "relationship": "CHELATING AGENT",
+    "target_id": "CHEMBL2363058",
+    "target_name": "Iron",
+    "target_type": "METAL",
+    "target_organism": null,
+    "uniprot_accessions": [],
+    "mechanism_of_action": "Iron chelating agent",
+    "mechanism_record_id": 1564,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL628",
+    "drug_name": "PENTOXIFYLLINE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2363066",
+    "target_name": "3',5'-cyclic phosphodiesterase",
+    "target_type": "PROTEIN FAMILY",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "O00408",
+      "O43924",
+      "O60658",
+      "O76074",
+      "O76083",
+      "O95263",
+      "P16499",
+      "P18545",
+      "P27815",
+      "P35913",
+      "P51160",
+      "P54750",
+      "Q01064",
+      "Q07343",
+      "Q08493",
+      "Q08499",
+      "Q13370",
+      "Q13946",
+      "Q13956",
+      "Q14123",
+      "Q14432",
+      "Q9NP56",
+      "Q9Y233"
+    ],
+    "mechanism_of_action": "3',5'-cyclic phosphodiesterase inhibitor",
+    "mechanism_record_id": 1571,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL548",
+    "drug_name": "DINOPROSTONE",
+    "relationship": "AGONIST",
+    "target_id": "CHEMBL2363068",
+    "target_name": "Prostaglandin E2 receptor",
+    "target_type": "PROTEIN FAMILY",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P34995",
+      "P35408",
+      "P43115",
+      "P43116"
+    ],
+    "mechanism_of_action": "Prostaglandin E2 receptor agonist",
+    "mechanism_record_id": 1573,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL38",
+    "drug_name": "TRETINOIN",
+    "relationship": "AGONIST",
+    "target_id": "CHEMBL2363069",
+    "target_name": "Retinoic acid receptor",
+    "target_type": "PROTEIN FAMILY",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P10276",
+      "P10826",
+      "P13631"
+    ],
+    "mechanism_of_action": "Retinoic acid receptor agonist",
+    "mechanism_record_id": 1575,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL705",
+    "drug_name": "ALITRETINOIN",
+    "relationship": "AGONIST",
+    "target_id": "CHEMBL2363071",
+    "target_name": "Retinoid receptor",
+    "target_type": "PROTEIN FAMILY",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P10276",
+      "P10826",
+      "P13631",
+      "P19793",
+      "P28702",
+      "P48443"
+    ],
+    "mechanism_of_action": "Retinoid receptor agonist",
+    "mechanism_record_id": 1577,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL464",
+    "drug_name": "ETRETINATE",
+    "relationship": "AGONIST",
+    "target_id": "CHEMBL2363071",
+    "target_name": "Retinoid receptor",
+    "target_type": "PROTEIN FAMILY",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P10276",
+      "P10826",
+      "P13631",
+      "P19793",
+      "P28702",
+      "P48443"
+    ],
+    "mechanism_of_action": "Retinoid receptor agonist",
+    "mechanism_record_id": 1579,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL407",
+    "drug_name": "FLUMAZENIL",
+    "relationship": "ALLOSTERIC ANTAGONIST",
+    "target_id": "CHEMBL2093872",
+    "target_name": "GABA-A receptor; anion channel",
+    "target_type": "PROTEIN COMPLEX GROUP",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "O00591",
+      "O14764",
+      "P14867",
+      "P18505",
+      "P18507",
+      "P28472",
+      "P31644",
+      "P34903",
+      "P47869",
+      "P47870",
+      "P48169",
+      "P78334",
+      "Q16445",
+      "Q8N1C3",
+      "Q99928",
+      "Q9UN88"
+    ],
+    "mechanism_of_action": "GABA-A receptor; anion channel allosteric antagonist",
+    "mechanism_record_id": 1588,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL451",
+    "drug_name": "CHLORDIAZEPOXIDE",
+    "relationship": "POSITIVE ALLOSTERIC MODULATOR",
+    "target_id": "CHEMBL2093872",
+    "target_name": "GABA-A receptor; anion channel",
+    "target_type": "PROTEIN COMPLEX GROUP",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "O00591",
+      "O14764",
+      "P14867",
+      "P18505",
+      "P18507",
+      "P28472",
+      "P31644",
+      "P34903",
+      "P47869",
+      "P47870",
+      "P48169",
+      "P78334",
+      "Q16445",
+      "Q8N1C3",
+      "Q99928",
+      "Q9UN88"
+    ],
+    "mechanism_of_action": "GABA-A receptor; anion channel positive allosteric modulator",
+    "mechanism_record_id": 1590,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL12",
+    "drug_name": "DIAZEPAM",
+    "relationship": "POSITIVE ALLOSTERIC MODULATOR",
+    "target_id": "CHEMBL2093872",
+    "target_name": "GABA-A receptor; anion channel",
+    "target_type": "PROTEIN COMPLEX GROUP",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "O00591",
+      "O14764",
+      "P14867",
+      "P18505",
+      "P18507",
+      "P28472",
+      "P31644",
+      "P34903",
+      "P47869",
+      "P47870",
+      "P48169",
+      "P78334",
+      "Q16445",
+      "Q8N1C3",
+      "Q99928",
+      "Q9UN88"
+    ],
+    "mechanism_of_action": "GABA-A receptor; anion channel positive allosteric modulator",
+    "mechanism_record_id": 1592,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL568",
+    "drug_name": "OXAZEPAM",
+    "relationship": "POSITIVE ALLOSTERIC MODULATOR",
+    "target_id": "CHEMBL2093872",
+    "target_name": "GABA-A receptor; anion channel",
+    "target_type": "PROTEIN COMPLEX GROUP",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "O00591",
+      "O14764",
+      "P14867",
+      "P18505",
+      "P18507",
+      "P28472",
+      "P31644",
+      "P34903",
+      "P47869",
+      "P47870",
+      "P48169",
+      "P78334",
+      "Q16445",
+      "Q8N1C3",
+      "Q99928",
+      "Q9UN88"
+    ],
+    "mechanism_of_action": "GABA-A receptor; anion channel positive allosteric modulator",
+    "mechanism_record_id": 1594,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL661",
+    "drug_name": "ALPRAZOLAM",
+    "relationship": "POSITIVE ALLOSTERIC MODULATOR",
+    "target_id": "CHEMBL2093872",
+    "target_name": "GABA-A receptor; anion channel",
+    "target_type": "PROTEIN COMPLEX GROUP",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "O00591",
+      "O14764",
+      "P14867",
+      "P18505",
+      "P18507",
+      "P28472",
+      "P31644",
+      "P34903",
+      "P47869",
+      "P47870",
+      "P48169",
+      "P78334",
+      "Q16445",
+      "Q8N1C3",
+      "Q99928",
+      "Q9UN88"
+    ],
+    "mechanism_of_action": "GABA-A receptor; anion channel positive allosteric modulator",
+    "mechanism_record_id": 1597,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL646",
+    "drug_name": "TRIAZOLAM",
+    "relationship": "POSITIVE ALLOSTERIC MODULATOR",
+    "target_id": "CHEMBL2093872",
+    "target_name": "GABA-A receptor; anion channel",
+    "target_type": "PROTEIN COMPLEX GROUP",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "O00591",
+      "O14764",
+      "P14867",
+      "P18505",
+      "P18507",
+      "P28472",
+      "P31644",
+      "P34903",
+      "P47869",
+      "P47870",
+      "P48169",
+      "P78334",
+      "Q16445",
+      "Q8N1C3",
+      "Q99928",
+      "Q9UN88"
+    ],
+    "mechanism_of_action": "GABA-A receptor; anion channel positive allosteric modulator",
+    "mechanism_record_id": 1598,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL454",
+    "drug_name": "BUTALBITAL",
+    "relationship": "POSITIVE ALLOSTERIC MODULATOR",
+    "target_id": "CHEMBL2093872",
+    "target_name": "GABA-A receptor; anion channel",
+    "target_type": "PROTEIN COMPLEX GROUP",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "O00591",
+      "O14764",
+      "P14867",
+      "P18505",
+      "P18507",
+      "P28472",
+      "P31644",
+      "P34903",
+      "P47869",
+      "P47870",
+      "P48169",
+      "P78334",
+      "Q16445",
+      "Q8N1C3",
+      "Q99928",
+      "Q9UN88"
+    ],
+    "mechanism_of_action": "GABA-A receptor; anion channel positive allosteric modulator",
+    "mechanism_record_id": 1599,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL452",
+    "drug_name": "CLONAZEPAM",
+    "relationship": "POSITIVE ALLOSTERIC MODULATOR",
+    "target_id": "CHEMBL2093872",
+    "target_name": "GABA-A receptor; anion channel",
+    "target_type": "PROTEIN COMPLEX GROUP",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "O00591",
+      "O14764",
+      "P14867",
+      "P18505",
+      "P18507",
+      "P28472",
+      "P31644",
+      "P34903",
+      "P47869",
+      "P47870",
+      "P48169",
+      "P78334",
+      "Q16445",
+      "Q8N1C3",
+      "Q99928",
+      "Q9UN88"
+    ],
+    "mechanism_of_action": "GABA-A receptor; anion channel positive allosteric modulator",
+    "mechanism_record_id": 1600,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL580",
+    "drug_name": "LORAZEPAM",
+    "relationship": "POSITIVE ALLOSTERIC MODULATOR",
+    "target_id": "CHEMBL2093872",
+    "target_name": "GABA-A receptor; anion channel",
+    "target_type": "PROTEIN COMPLEX GROUP",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "O00591",
+      "O14764",
+      "P14867",
+      "P18505",
+      "P18507",
+      "P28472",
+      "P31644",
+      "P34903",
+      "P47869",
+      "P47870",
+      "P48169",
+      "P78334",
+      "Q16445",
+      "Q8N1C3",
+      "Q99928",
+      "Q9UN88"
+    ],
+    "mechanism_of_action": "GABA-A receptor; anion channel positive allosteric modulator",
+    "mechanism_record_id": 1607,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL591",
+    "drug_name": "ETHCHLORVYNOL",
+    "relationship": "POSITIVE MODULATOR",
+    "target_id": "CHEMBL2093872",
+    "target_name": "GABA-A receptor; anion channel",
+    "target_type": "PROTEIN COMPLEX GROUP",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "O00591",
+      "O14764",
+      "P14867",
+      "P18505",
+      "P18507",
+      "P28472",
+      "P31644",
+      "P34903",
+      "P47869",
+      "P47870",
+      "P48169",
+      "P78334",
+      "Q16445",
+      "Q8N1C3",
+      "Q99928",
+      "Q9UN88"
+    ],
+    "mechanism_of_action": "GABA-A receptor; anion channel positive modulator",
+    "mechanism_record_id": 1609,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL450",
+    "drug_name": "METHARBITAL",
+    "relationship": "POSITIVE ALLOSTERIC MODULATOR",
+    "target_id": "CHEMBL2093872",
+    "target_name": "GABA-A receptor; anion channel",
+    "target_type": "PROTEIN COMPLEX GROUP",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "O00591",
+      "O14764",
+      "P14867",
+      "P18505",
+      "P18507",
+      "P28472",
+      "P31644",
+      "P34903",
+      "P47869",
+      "P47870",
+      "P48169",
+      "P78334",
+      "Q16445",
+      "Q8N1C3",
+      "Q99928",
+      "Q9UN88"
+    ],
+    "mechanism_of_action": "GABA-A receptor; anion channel positive allosteric modulator",
+    "mechanism_record_id": 1610,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL526",
+    "drug_name": "PROPOFOL",
+    "relationship": "POSITIVE ALLOSTERIC MODULATOR",
+    "target_id": "CHEMBL2093872",
+    "target_name": "GABA-A receptor; anion channel",
+    "target_type": "PROTEIN COMPLEX GROUP",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "O00591",
+      "O14764",
+      "P14867",
+      "P18505",
+      "P18507",
+      "P28472",
+      "P31644",
+      "P34903",
+      "P47869",
+      "P47870",
+      "P48169",
+      "P78334",
+      "Q16445",
+      "Q8N1C3",
+      "Q99928",
+      "Q9UN88"
+    ],
+    "mechanism_of_action": "GABA-A receptor; anion channel positive allosteric modulator",
+    "mechanism_record_id": 1616,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL448",
+    "drug_name": "PENTOBARBITAL",
+    "relationship": "POSITIVE ALLOSTERIC MODULATOR",
+    "target_id": "CHEMBL2093872",
+    "target_name": "GABA-A receptor; anion channel",
+    "target_type": "PROTEIN COMPLEX GROUP",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "O00591",
+      "O14764",
+      "P14867",
+      "P18505",
+      "P18507",
+      "P28472",
+      "P31644",
+      "P34903",
+      "P47869",
+      "P47870",
+      "P48169",
+      "P78334",
+      "Q16445",
+      "Q8N1C3",
+      "Q99928",
+      "Q9UN88"
+    ],
+    "mechanism_of_action": "GABA-A receptor; anion channel positive allosteric modulator",
+    "mechanism_record_id": 1618,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL681",
+    "drug_name": "ETOMIDATE",
+    "relationship": "POSITIVE MODULATOR",
+    "target_id": "CHEMBL2093872",
+    "target_name": "GABA-A receptor; anion channel",
+    "target_type": "PROTEIN COMPLEX GROUP",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "O00591",
+      "O14764",
+      "P14867",
+      "P18505",
+      "P18507",
+      "P28472",
+      "P31644",
+      "P34903",
+      "P47869",
+      "P47870",
+      "P48169",
+      "P78334",
+      "Q16445",
+      "Q8N1C3",
+      "Q99928",
+      "Q9UN88"
+    ],
+    "mechanism_of_action": "GABA-A receptor; anion channel positive modulator",
+    "mechanism_record_id": 1625,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL9",
+    "drug_name": "NORFLOXACIN",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2363076",
+    "target_name": "Topoisomerase IV",
+    "target_type": "PROTEIN COMPLEX",
+    "target_organism": "Bacteria",
+    "uniprot_accessions": [
+      "P0AFI2",
+      "P20083"
+    ],
+    "mechanism_of_action": "Topoisomerase IV inhibitor",
+    "mechanism_record_id": 1639,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL437",
+    "drug_name": "SULFATHIAZOLE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2364668",
+    "target_name": "Dihydropteroate synthase",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Bacteria",
+    "uniprot_accessions": [
+      "P0AC13"
+    ],
+    "mechanism_of_action": "Bacterial dihydropteroate synthase inhibitor",
+    "mechanism_record_id": 1645,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL446",
+    "drug_name": "SULFAMETHAZINE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2364668",
+    "target_name": "Dihydropteroate synthase",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Bacteria",
+    "uniprot_accessions": [
+      "P0AC13"
+    ],
+    "mechanism_of_action": "Bacterial dihydropteroate synthase inhibitor",
+    "mechanism_record_id": 1647,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL21",
+    "drug_name": "SULFANILAMIDE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2364668",
+    "target_name": "Dihydropteroate synthase",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Bacteria",
+    "uniprot_accessions": [
+      "P0AC13"
+    ],
+    "mechanism_of_action": "Bacterial dihydropteroate synthase inhibitor",
+    "mechanism_record_id": 1648,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL443",
+    "drug_name": "SULFAMETHOXAZOLE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2364668",
+    "target_name": "Dihydropteroate synthase",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Bacteria",
+    "uniprot_accessions": [
+      "P0AC13"
+    ],
+    "mechanism_of_action": "Bacterial dihydropteroate synthase inhibitor",
+    "mechanism_record_id": 1653,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL438",
+    "drug_name": "SULFAMERAZINE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2364668",
+    "target_name": "Dihydropteroate synthase",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Bacteria",
+    "uniprot_accessions": [
+      "P0AC13"
+    ],
+    "mechanism_of_action": "Bacterial dihydropteroate synthase inhibitor",
+    "mechanism_record_id": 1657,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL453",
+    "drug_name": "SULFISOXAZOLE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2364668",
+    "target_name": "Dihydropteroate synthase",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Bacteria",
+    "uniprot_accessions": [
+      "P0AC13"
+    ],
+    "mechanism_of_action": "Bacterial dihydropteroate synthase inhibitor",
+    "mechanism_record_id": 1658,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL700",
+    "drug_name": "SULFAPYRIDINE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2364668",
+    "target_name": "Dihydropteroate synthase",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Bacteria",
+    "uniprot_accessions": [
+      "P0AC13"
+    ],
+    "mechanism_of_action": "Bacterial dihydropteroate synthase inhibitor",
+    "mechanism_record_id": 1659,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL439",
+    "drug_name": "SULFADIAZINE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2364668",
+    "target_name": "Dihydropteroate synthase",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Bacteria",
+    "uniprot_accessions": [
+      "P0AC13"
+    ],
+    "mechanism_of_action": "Bacterial dihydropteroate synthase inhibitor",
+    "mechanism_record_id": 1660,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL455",
+    "drug_name": "SULFACETAMIDE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2364668",
+    "target_name": "Dihydropteroate synthase",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Bacteria",
+    "uniprot_accessions": [
+      "P0AC13"
+    ],
+    "mechanism_of_action": "Bacterial dihydropteroate synthase inhibitor",
+    "mechanism_record_id": 1662,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL22",
+    "drug_name": "TRIMETHOPRIM",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2364669",
+    "target_name": "Dihydrofolate reductase",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Bacteria",
+    "uniprot_accessions": [
+      "P0ABQ4"
+    ],
+    "mechanism_of_action": "Bacterial dihydrofolate reductase inhibitor",
+    "mechanism_record_id": 1664,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL719",
+    "drug_name": "MUPIROCIN",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2364671",
+    "target_name": "Isoleucine--tRNA ligase",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Streptococcus pyogenes",
+    "uniprot_accessions": [
+      "Q99YW3"
+    ],
+    "mechanism_of_action": "Isoleucyl-tRNA synthetase inhibitor",
+    "mechanism_record_id": 1671,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL615",
+    "drug_name": "PENICILLIN V",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2354204",
+    "target_name": "Bacterial penicillin-binding protein",
+    "target_type": "PROTEIN FAMILY",
+    "target_organism": "Bacteria",
+    "uniprot_accessions": [
+      "P02918",
+      "P02919",
+      "P08506",
+      "P0AD65",
+      "P0AD68",
+      "P0AEB2",
+      "P24228"
+    ],
+    "mechanism_of_action": "Bacterial penicillin-binding protein inhibitor",
+    "mechanism_record_id": 1684,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL127",
+    "drug_name": "MEROPENEM",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2354204",
+    "target_name": "Bacterial penicillin-binding protein",
+    "target_type": "PROTEIN FAMILY",
+    "target_organism": "Bacteria",
+    "uniprot_accessions": [
+      "P02918",
+      "P02919",
+      "P08506",
+      "P0AD65",
+      "P0AD68",
+      "P0AEB2",
+      "P24228"
+    ],
+    "mechanism_of_action": "Bacterial penicillin-binding protein inhibitor",
+    "mechanism_record_id": 1726,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL530",
+    "drug_name": "AMDINOCILLIN",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2354313",
+    "target_name": "Peptidoglycan D,D-transpeptidase MrdA",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Bacteria",
+    "uniprot_accessions": [
+      "P0AD65"
+    ],
+    "mechanism_of_action": "Bacterial penicillin-binding protein 2 inhibitor",
+    "mechanism_record_id": 1733,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL608",
+    "drug_name": "PROBUCOL",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2362986",
+    "target_name": "Phospholipid-transporting ATPase ABCA1",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "O95477"
+    ],
+    "mechanism_of_action": "ATP-binding cassette sub-family A member 1 inhibitor",
+    "mechanism_record_id": 1739,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL130",
+    "drug_name": "CHLORAMPHENICOL",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2363135",
+    "target_name": "Bacterial 70S ribosome",
+    "target_type": "PROTEIN NUCLEIC-ACID COMPLEX",
+    "target_organism": "Bacteria",
+    "uniprot_accessions": [
+      "P02358",
+      "P02359",
+      "P02413",
+      "P0A7J3",
+      "P0A7J7",
+      "P0A7K2",
+      "P0A7K6",
+      "P0A7L0",
+      "P0A7L3",
+      "P0A7L8",
+      "P0A7M2",
+      "P0A7M6",
+      "P0A7M9",
+      "P0A7N1",
+      "P0A7N4",
+      "P0A7N9",
+      "P0A7P5",
+      "P0A7Q1",
+      "P0A7Q6",
+      "P0A7R5",
+      "P0A7R9",
+      "P0A7S3",
+      "P0A7S9",
+      "P0A7T3",
+      "P0A7T7",
+      "P0A7U3",
+      "P0A7U7",
+      "P0A7V0",
+      "P0A7V3",
+      "P0A7V8",
+      "P0A7W1",
+      "P0A7W7",
+      "P0A7X3",
+      "P0AA10",
+      "P0ADY3",
+      "P0ADY7",
+      "P0ADZ0",
+      "P0ADZ4",
+      "P0AG44",
+      "P0AG48",
+      "P0AG51",
+      "P0AG55",
+      "P0AG59",
+      "P0AG63",
+      "P0AG67",
+      "P0C018",
+      "P60422",
+      "P60438",
+      "P60624",
+      "P60723",
+      "P61175",
+      "P62399",
+      "P68679",
+      "P68919",
+      "Q2EEQ2"
+    ],
+    "mechanism_of_action": "Bacterial 70S ribosome inhibitor",
+    "mechanism_record_id": 1751,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL532",
+    "drug_name": "ERYTHROMYCIN",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2363135",
+    "target_name": "Bacterial 70S ribosome",
+    "target_type": "PROTEIN NUCLEIC-ACID COMPLEX",
+    "target_organism": "Bacteria",
+    "uniprot_accessions": [
+      "P02358",
+      "P02359",
+      "P02413",
+      "P0A7J3",
+      "P0A7J7",
+      "P0A7K2",
+      "P0A7K6",
+      "P0A7L0",
+      "P0A7L3",
+      "P0A7L8",
+      "P0A7M2",
+      "P0A7M6",
+      "P0A7M9",
+      "P0A7N1",
+      "P0A7N4",
+      "P0A7N9",
+      "P0A7P5",
+      "P0A7Q1",
+      "P0A7Q6",
+      "P0A7R5",
+      "P0A7R9",
+      "P0A7S3",
+      "P0A7S9",
+      "P0A7T3",
+      "P0A7T7",
+      "P0A7U3",
+      "P0A7U7",
+      "P0A7V0",
+      "P0A7V3",
+      "P0A7V8",
+      "P0A7W1",
+      "P0A7W7",
+      "P0A7X3",
+      "P0AA10",
+      "P0ADY3",
+      "P0ADY7",
+      "P0ADZ0",
+      "P0ADZ4",
+      "P0AG44",
+      "P0AG48",
+      "P0AG51",
+      "P0AG55",
+      "P0AG59",
+      "P0AG63",
+      "P0AG67",
+      "P0C018",
+      "P60422",
+      "P60438",
+      "P60624",
+      "P60723",
+      "P61175",
+      "P62399",
+      "P68679",
+      "P68919",
+      "Q2EEQ2"
+    ],
+    "mechanism_of_action": "Bacterial 70S ribosome inhibitor",
+    "mechanism_record_id": 1783,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL529",
+    "drug_name": "AZITHROMYCIN",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2363135",
+    "target_name": "Bacterial 70S ribosome",
+    "target_type": "PROTEIN NUCLEIC-ACID COMPLEX",
+    "target_organism": "Bacteria",
+    "uniprot_accessions": [
+      "P02358",
+      "P02359",
+      "P02413",
+      "P0A7J3",
+      "P0A7J7",
+      "P0A7K2",
+      "P0A7K6",
+      "P0A7L0",
+      "P0A7L3",
+      "P0A7L8",
+      "P0A7M2",
+      "P0A7M6",
+      "P0A7M9",
+      "P0A7N1",
+      "P0A7N4",
+      "P0A7N9",
+      "P0A7P5",
+      "P0A7Q1",
+      "P0A7Q6",
+      "P0A7R5",
+      "P0A7R9",
+      "P0A7S3",
+      "P0A7S9",
+      "P0A7T3",
+      "P0A7T7",
+      "P0A7U3",
+      "P0A7U7",
+      "P0A7V0",
+      "P0A7V3",
+      "P0A7V8",
+      "P0A7W1",
+      "P0A7W7",
+      "P0A7X3",
+      "P0AA10",
+      "P0ADY3",
+      "P0ADY7",
+      "P0ADZ0",
+      "P0ADZ4",
+      "P0AG44",
+      "P0AG48",
+      "P0AG51",
+      "P0AG55",
+      "P0AG59",
+      "P0AG63",
+      "P0AG67",
+      "P0C018",
+      "P60422",
+      "P60438",
+      "P60624",
+      "P60723",
+      "P61175",
+      "P62399",
+      "P68679",
+      "P68919",
+      "Q2EEQ2"
+    ],
+    "mechanism_of_action": "Bacterial 70S ribosome inhibitor",
+    "mechanism_record_id": 1788,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL267345",
+    "drug_name": "AMPHOTERICIN B",
+    "relationship": "SEQUESTERING AGENT",
+    "target_id": "CHEMBL2364028",
+    "target_name": "Ergosterol",
+    "target_type": "SMALL MOLECULE",
+    "target_organism": "Candida albicans",
+    "uniprot_accessions": [],
+    "mechanism_of_action": "Ergosterol sequestering agent",
+    "mechanism_record_id": 1804,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL137",
+    "drug_name": "METRONIDAZOLE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2364041",
+    "target_name": "DNA",
+    "target_type": "NUCLEIC-ACID",
+    "target_organism": "Bacteria",
+    "uniprot_accessions": [],
+    "mechanism_of_action": "DNA inhibitor",
+    "mechanism_record_id": 1824,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL572",
+    "drug_name": "NITROFURANTOIN",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2364041",
+    "target_name": "DNA",
+    "target_type": "NUCLEIC-ACID",
+    "target_organism": "Bacteria",
+    "uniprot_accessions": [],
+    "mechanism_of_action": "DNA inhibitor",
+    "mechanism_record_id": 1832,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL514",
+    "drug_name": "LOMUSTINE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2311221",
+    "target_name": "DNA",
+    "target_type": "NUCLEIC-ACID",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [],
+    "mechanism_of_action": "DNA inhibitor",
+    "mechanism_record_id": 1852,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL515",
+    "drug_name": "CHLORAMBUCIL",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2311221",
+    "target_name": "DNA",
+    "target_type": "NUCLEIC-ACID",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [],
+    "mechanism_of_action": "DNA inhibitor",
+    "mechanism_record_id": 1859,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL671",
+    "drug_name": "THIOTEPA",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2311221",
+    "target_name": "DNA",
+    "target_type": "NUCLEIC-ACID",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [],
+    "mechanism_of_action": "DNA inhibitor",
+    "mechanism_record_id": 1861,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL416",
+    "drug_name": "METHOXSALEN",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2311221",
+    "target_name": "DNA",
+    "target_type": "NUCLEIC-ACID",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [],
+    "mechanism_of_action": "DNA inhibitor",
+    "mechanism_record_id": 1862,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL105",
+    "drug_name": "MITOMYCIN",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2311221",
+    "target_name": "DNA",
+    "target_type": "NUCLEIC-ACID",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [],
+    "mechanism_of_action": "DNA inhibitor",
+    "mechanism_record_id": 1864,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL476",
+    "drug_name": "DACARBAZINE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2311221",
+    "target_name": "DNA",
+    "target_type": "NUCLEIC-ACID",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [],
+    "mechanism_of_action": "DNA inhibitor",
+    "mechanism_record_id": 1868,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL11359",
+    "drug_name": "CISPLATIN",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2311221",
+    "target_name": "DNA",
+    "target_type": "NUCLEIC-ACID",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [],
+    "mechanism_of_action": "DNA inhibitor",
+    "mechanism_record_id": 1872,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL513",
+    "drug_name": "CARMUSTINE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2311221",
+    "target_name": "DNA",
+    "target_type": "NUCLEIC-ACID",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [],
+    "mechanism_of_action": "DNA inhibitor",
+    "mechanism_record_id": 1882,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL727",
+    "drug_name": "THIOGUANINE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2311221",
+    "target_name": "DNA",
+    "target_type": "NUCLEIC-ACID",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [],
+    "mechanism_of_action": "DNA inhibitor",
+    "mechanism_record_id": 1887,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL513",
+    "drug_name": "CARMUSTINE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2311222",
+    "target_name": "RNA",
+    "target_type": "NUCLEIC-ACID",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [],
+    "mechanism_of_action": "RNA inhibitor",
+    "mechanism_record_id": 1892,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL4",
+    "drug_name": "OFLOXACIN",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2311224",
+    "target_name": "Bacterial DNA gyrase",
+    "target_type": "PROTEIN COMPLEX",
+    "target_organism": "Bacteria",
+    "uniprot_accessions": [
+      "P0AES4",
+      "P0AES6"
+    ],
+    "mechanism_of_action": "Bacterial DNA gyrase inhibitor",
+    "mechanism_record_id": 1899,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL8",
+    "drug_name": "CIPROFLOXACIN",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2311224",
+    "target_name": "Bacterial DNA gyrase",
+    "target_type": "PROTEIN COMPLEX",
+    "target_organism": "Bacteria",
+    "uniprot_accessions": [
+      "P0AES4",
+      "P0AES6"
+    ],
+    "mechanism_of_action": "Bacterial DNA gyrase inhibitor",
+    "mechanism_record_id": 1901,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL9",
+    "drug_name": "NORFLOXACIN",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2311224",
+    "target_name": "Bacterial DNA gyrase",
+    "target_type": "PROTEIN COMPLEX",
+    "target_organism": "Bacteria",
+    "uniprot_accessions": [
+      "P0AES4",
+      "P0AES6"
+    ],
+    "mechanism_of_action": "Bacterial DNA gyrase inhibitor",
+    "mechanism_record_id": 1904,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL5",
+    "drug_name": "NALIDIXIC ACID",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2311224",
+    "target_name": "Bacterial DNA gyrase",
+    "target_type": "PROTEIN COMPLEX",
+    "target_organism": "Bacteria",
+    "uniprot_accessions": [
+      "P0AES4",
+      "P0AES6"
+    ],
+    "mechanism_of_action": "Bacterial DNA gyrase inhibitor",
+    "mechanism_record_id": 1905,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL31",
+    "drug_name": "GATIFLOXACIN",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2311225",
+    "target_name": "DNA gyrase",
+    "target_type": "PROTEIN COMPLEX",
+    "target_organism": "Streptococcus pneumoniae",
+    "uniprot_accessions": [
+      "P0A4L9",
+      "P72524"
+    ],
+    "mechanism_of_action": "DNA gyrase inhibitor",
+    "mechanism_record_id": 1911,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL141",
+    "drug_name": "LAMIVUDINE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2362994",
+    "target_name": "DNA polymerase/reverse transcriptase",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Hepatitis B virus",
+    "uniprot_accessions": [
+      "Q9IF40"
+    ],
+    "mechanism_of_action": "DNA polymerase/reverse transcriptase inhibitor",
+    "mechanism_record_id": 1926,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL108",
+    "drug_name": "CARBAMAZEPINE",
+    "relationship": "BLOCKER",
+    "target_id": "CHEMBL2331043",
+    "target_name": "Sodium channel alpha subunit",
+    "target_type": "PROTEIN FAMILY",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P35498",
+      "P35499",
+      "Q01118",
+      "Q14524",
+      "Q15858",
+      "Q99250",
+      "Q9NY46",
+      "Q9UI33",
+      "Q9UQD0",
+      "Q9Y5Y9"
+    ],
+    "mechanism_of_action": "Sodium channel alpha subunit blocker",
+    "mechanism_record_id": 1972,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL698",
+    "drug_name": "TETRACAINE",
+    "relationship": "BLOCKER",
+    "target_id": "CHEMBL2331043",
+    "target_name": "Sodium channel alpha subunit",
+    "target_type": "PROTEIN FAMILY",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P35498",
+      "P35499",
+      "Q01118",
+      "Q14524",
+      "Q15858",
+      "Q99250",
+      "Q9NY46",
+      "Q9UI33",
+      "Q9UQD0",
+      "Q9Y5Y9"
+    ],
+    "mechanism_of_action": "Sodium channel alpha subunit blocker",
+    "mechanism_record_id": 1974,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL605",
+    "drug_name": "PROCAINAMIDE HYDROCHLORIDE",
+    "relationship": "BLOCKER",
+    "target_id": "CHEMBL2331043",
+    "target_name": "Sodium channel alpha subunit",
+    "target_type": "PROTEIN FAMILY",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P35498",
+      "P35499",
+      "Q01118",
+      "Q14524",
+      "Q15858",
+      "Q99250",
+      "Q9NY46",
+      "Q9UI33",
+      "Q9UQD0",
+      "Q9Y5Y9"
+    ],
+    "mechanism_of_action": "Sodium channel alpha subunit blocker",
+    "mechanism_record_id": 1981,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL16",
+    "drug_name": "PHENYTOIN",
+    "relationship": "BLOCKER",
+    "target_id": "CHEMBL2331043",
+    "target_name": "Sodium channel alpha subunit",
+    "target_type": "PROTEIN FAMILY",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P35498",
+      "P35499",
+      "Q01118",
+      "Q14524",
+      "Q15858",
+      "Q99250",
+      "Q9NY46",
+      "Q9UI33",
+      "Q9UQD0",
+      "Q9Y5Y9"
+    ],
+    "mechanism_of_action": "Sodium channel alpha subunit blocker",
+    "mechanism_record_id": 1987,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL79",
+    "drug_name": "LIDOCAINE",
+    "relationship": "BLOCKER",
+    "target_id": "CHEMBL2331043",
+    "target_name": "Sodium channel alpha subunit",
+    "target_type": "PROTEIN FAMILY",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P35498",
+      "P35499",
+      "Q01118",
+      "Q14524",
+      "Q15858",
+      "Q99250",
+      "Q9NY46",
+      "Q9UI33",
+      "Q9UQD0",
+      "Q9Y5Y9"
+    ],
+    "mechanism_of_action": "Sodium channel alpha subunit blocker",
+    "mechanism_record_id": 1992,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL679",
+    "drug_name": "EPINEPHRINE",
+    "relationship": "AGONIST",
+    "target_id": "CHEMBL2331074",
+    "target_name": "Adrenergic receptor",
+    "target_type": "PROTEIN FAMILY",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P07550",
+      "P08588",
+      "P08913",
+      "P13945",
+      "P18089",
+      "P18825",
+      "P25100",
+      "P35348",
+      "P35368"
+    ],
+    "mechanism_of_action": "Adrenergic receptor agonist",
+    "mechanism_record_id": 1999,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL71",
+    "drug_name": "CHLORPROMAZINE",
+    "relationship": "ANTAGONIST",
+    "target_id": "CHEMBL2331075",
+    "target_name": "D2-like dopamine receptor",
+    "target_type": "PROTEIN FAMILY",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P14416",
+      "P21917",
+      "P35462"
+    ],
+    "mechanism_of_action": "D2-like dopamine receptor antagonist",
+    "mechanism_record_id": 2005,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL42",
+    "drug_name": "CLOZAPINE",
+    "relationship": "ANTAGONIST",
+    "target_id": "CHEMBL217",
+    "target_name": "D(2) dopamine receptor",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P14416"
+    ],
+    "mechanism_of_action": "Dopamine D2 receptor antagonist",
+    "mechanism_record_id": 2007,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL85",
+    "drug_name": "RISPERIDONE",
+    "relationship": "ANTAGONIST",
+    "target_id": "CHEMBL217",
+    "target_name": "D(2) dopamine receptor",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P14416"
+    ],
+    "mechanism_of_action": "Dopamine D2 receptor antagonist",
+    "mechanism_record_id": 2012,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL479",
+    "drug_name": "THIORIDAZINE",
+    "relationship": "ANTAGONIST",
+    "target_id": "CHEMBL2331075",
+    "target_name": "D2-like dopamine receptor",
+    "target_type": "PROTEIN FAMILY",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P14416",
+      "P21917",
+      "P35462"
+    ],
+    "mechanism_of_action": "D2-like dopamine receptor antagonist",
+    "mechanism_record_id": 2019,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL715",
+    "drug_name": "OLANZAPINE",
+    "relationship": "ANTAGONIST",
+    "target_id": "CHEMBL2331075",
+    "target_name": "D2-like dopamine receptor",
+    "target_type": "PROTEIN FAMILY",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P14416",
+      "P21917",
+      "P35462"
+    ],
+    "mechanism_of_action": "D2-like dopamine receptor antagonist",
+    "mechanism_record_id": 2023,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL54",
+    "drug_name": "HALOPERIDOL",
+    "relationship": "INVERSE AGONIST",
+    "target_id": "CHEMBL2331075",
+    "target_name": "D2-like dopamine receptor",
+    "target_type": "PROTEIN FAMILY",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P14416",
+      "P21917",
+      "P35462"
+    ],
+    "mechanism_of_action": "D2-like dopamine receptor inverse agonist",
+    "mechanism_record_id": 2026,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL15891",
+    "drug_name": "LINDANE",
+    "relationship": "NEGATIVE ALLOSTERIC MODULATOR",
+    "target_id": "CHEMBL2364024",
+    "target_name": "GABA-A receptor",
+    "target_type": "PROTEIN COMPLEX GROUP",
+    "target_organism": "Sarcoptes scabiei",
+    "uniprot_accessions": [
+      "H9U2V9",
+      "H9U2W0",
+      "H9U2W1"
+    ],
+    "mechanism_of_action": "GABA-A receptor negative allosteric modulator",
+    "mechanism_record_id": 2031,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL15891",
+    "drug_name": "LINDANE",
+    "relationship": "NEGATIVE ALLOSTERIC MODULATOR",
+    "target_id": "CHEMBL2364025",
+    "target_name": "GABA-A receptor",
+    "target_type": "PROTEIN COMPLEX GROUP",
+    "target_organism": "Pediculus humanus",
+    "uniprot_accessions": [
+      "E0V9W2",
+      "E0VY07",
+      "E0W492"
+    ],
+    "mechanism_of_action": "GABA-A receptor negative allosteric modulator",
+    "mechanism_record_id": 2032,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL31",
+    "drug_name": "GATIFLOXACIN",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2363033",
+    "target_name": "Topoisomerase IV",
+    "target_type": "PROTEIN COMPLEX",
+    "target_organism": "Streptococcus pneumoniae",
+    "uniprot_accessions": [
+      "P72525",
+      "Q59961"
+    ],
+    "mechanism_of_action": "Topoisomerase IV inhibitor",
+    "mechanism_record_id": 2045,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL126",
+    "drug_name": "LINEZOLID",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2363135",
+    "target_name": "Bacterial 70S ribosome",
+    "target_type": "PROTEIN NUCLEIC-ACID COMPLEX",
+    "target_organism": "Bacteria",
+    "uniprot_accessions": [
+      "P02358",
+      "P02359",
+      "P02413",
+      "P0A7J3",
+      "P0A7J7",
+      "P0A7K2",
+      "P0A7K6",
+      "P0A7L0",
+      "P0A7L3",
+      "P0A7L8",
+      "P0A7M2",
+      "P0A7M6",
+      "P0A7M9",
+      "P0A7N1",
+      "P0A7N4",
+      "P0A7N9",
+      "P0A7P5",
+      "P0A7Q1",
+      "P0A7Q6",
+      "P0A7R5",
+      "P0A7R9",
+      "P0A7S3",
+      "P0A7S9",
+      "P0A7T3",
+      "P0A7T7",
+      "P0A7U3",
+      "P0A7U7",
+      "P0A7V0",
+      "P0A7V3",
+      "P0A7V8",
+      "P0A7W1",
+      "P0A7W7",
+      "P0A7X3",
+      "P0AA10",
+      "P0ADY3",
+      "P0ADY7",
+      "P0ADZ0",
+      "P0ADZ4",
+      "P0AG44",
+      "P0AG48",
+      "P0AG51",
+      "P0AG55",
+      "P0AG59",
+      "P0AG63",
+      "P0AG67",
+      "P0C018",
+      "P60422",
+      "P60438",
+      "P60624",
+      "P60723",
+      "P61175",
+      "P62399",
+      "P68679",
+      "P68919",
+      "Q2EEQ2"
+    ],
+    "mechanism_of_action": "Bacterial 70S ribosome inhibitor",
+    "mechanism_record_id": 2067,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL614",
+    "drug_name": "PYRAZINAMIDE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2363965",
+    "target_name": "70S ribosome",
+    "target_type": "PROTEIN NUCLEIC-ACID COMPLEX",
+    "target_organism": "Mycobacterium tuberculosis",
+    "uniprot_accessions": [
+      "P9WH25",
+      "P9WH27",
+      "P9WH29",
+      "P9WH31",
+      "P9WH33",
+      "P9WH35",
+      "P9WH37",
+      "P9WH39",
+      "P9WH41",
+      "P9WH43",
+      "P9WH45",
+      "P9WH47",
+      "P9WH49",
+      "P9WH51",
+      "P9WH53",
+      "P9WH55",
+      "P9WH57",
+      "P9WH59",
+      "P9WH61",
+      "P9WH63",
+      "P9WH65",
+      "P9WH67",
+      "P9WH79",
+      "P9WH81",
+      "P9WH83",
+      "P9WH85",
+      "P9WH87",
+      "P9WH89",
+      "P9WH91",
+      "P9WH93",
+      "P9WH95",
+      "P9WH97",
+      "P9WH99",
+      "P9WHA1",
+      "P9WHA3",
+      "P9WHA5",
+      "P9WHA7",
+      "P9WHA9",
+      "P9WHB1",
+      "P9WHB3",
+      "P9WHB5",
+      "P9WHB7",
+      "P9WHB9",
+      "P9WHC1",
+      "P9WHC3",
+      "P9WHC5",
+      "P9WHC7",
+      "P9WHC9",
+      "P9WHD1",
+      "P9WHD3",
+      "P9WHD5",
+      "P9WHD7",
+      "P9WHD9",
+      "P9WHE1",
+      "P9WHE3",
+      "P9WHE5",
+      "P9WHE7"
+    ],
+    "mechanism_of_action": "70S ribosome inhibitor",
+    "mechanism_record_id": 2071,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL697",
+    "drug_name": "METHSUXIMIDE",
+    "relationship": "BLOCKER",
+    "target_id": "CHEMBL2362995",
+    "target_name": "Voltage-gated T-type calcium channel",
+    "target_type": "PROTEIN FAMILY",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "O43497",
+      "O95180",
+      "Q9P0X4"
+    ],
+    "mechanism_of_action": "Voltage-gated T-type calcium channel blocker",
+    "mechanism_record_id": 2098,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL696",
+    "drug_name": "ETHOSUXIMIDE",
+    "relationship": "BLOCKER",
+    "target_id": "CHEMBL2362995",
+    "target_name": "Voltage-gated T-type calcium channel",
+    "target_type": "PROTEIN FAMILY",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "O43497",
+      "O95180",
+      "Q9P0X4"
+    ],
+    "mechanism_of_action": "Voltage-gated T-type calcium channel blocker",
+    "mechanism_record_id": 2099,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL695",
+    "drug_name": "TRIMETHADIONE",
+    "relationship": "BLOCKER",
+    "target_id": "CHEMBL2362995",
+    "target_name": "Voltage-gated T-type calcium channel",
+    "target_type": "PROTEIN FAMILY",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "O43497",
+      "O95180",
+      "Q9P0X4"
+    ],
+    "mechanism_of_action": "Voltage-gated T-type calcium channel blocker",
+    "mechanism_record_id": 2100,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL284348",
+    "drug_name": "DALFAMPRIDINE",
+    "relationship": "BLOCKER",
+    "target_id": "CHEMBL2362996",
+    "target_name": "Voltage-gated potassium channel",
+    "target_type": "PROTEIN FAMILY",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "O43525",
+      "O43526",
+      "O95259",
+      "P16389",
+      "P17658",
+      "P22001",
+      "P22459",
+      "P22460",
+      "P48547",
+      "P51787",
+      "P56696",
+      "Q03721",
+      "Q09470",
+      "Q12809",
+      "Q14003",
+      "Q14721",
+      "Q16322",
+      "Q6PIU1",
+      "Q8NCM2",
+      "Q8TAE7",
+      "Q8TDN1",
+      "Q8TDN2",
+      "Q92953",
+      "Q96KK3",
+      "Q96L42",
+      "Q96PR1",
+      "Q96RP8",
+      "Q9BQ31",
+      "Q9H252",
+      "Q9H3M0",
+      "Q9NR82",
+      "Q9NS40",
+      "Q9NSA2",
+      "Q9NZV8",
+      "Q9UIX4",
+      "Q9UJ96",
+      "Q9UK17",
+      "Q9ULD8",
+      "Q9ULS6",
+      "Q9UQ05"
+    ],
+    "mechanism_of_action": "Voltage-gated potassium channel blocker",
+    "mechanism_record_id": 2102,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL112",
+    "drug_name": "ACETAMINOPHEN",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2243",
+    "target_name": "Fatty-acid amide hydrolase 1",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "O00519"
+    ],
+    "mechanism_of_action": "Anandamide amidohydrolase inhibitor",
+    "mechanism_record_id": 2226,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL112",
+    "drug_name": "ACETAMINOPHEN",
+    "relationship": "OPENER",
+    "target_id": "CHEMBL4794",
+    "target_name": "Transient receptor potential cation channel subfamily V member 1",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "Q8NER1"
+    ],
+    "mechanism_of_action": "Vanilloid receptor opener",
+    "mechanism_record_id": 2227,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL139",
+    "drug_name": "DICLOFENAC",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2094253",
+    "target_name": "Cyclooxygenase",
+    "target_type": "PROTEIN FAMILY",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P23219",
+      "P35354"
+    ],
+    "mechanism_of_action": "Cyclooxygenase inhibitor",
+    "mechanism_record_id": 2254,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL547",
+    "drug_name": "ISOTRETINOIN",
+    "relationship": "AGONIST",
+    "target_id": "CHEMBL2363069",
+    "target_name": "Retinoic acid receptor",
+    "target_type": "PROTEIN FAMILY",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P10276",
+      "P10826",
+      "P13631"
+    ],
+    "mechanism_of_action": "Retinoic acid receptor agonist",
+    "mechanism_record_id": 2365,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL550",
+    "drug_name": "PILOCARPINE",
+    "relationship": "AGONIST",
+    "target_id": "CHEMBL216",
+    "target_name": "Muscarinic acetylcholine receptor M1",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P11229"
+    ],
+    "mechanism_of_action": "Muscarinic acetylcholine receptor M1 agonist",
+    "mechanism_record_id": 2369,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL489",
+    "drug_name": "AFIMOXIFENE",
+    "relationship": "MODULATOR",
+    "target_id": "CHEMBL2093866",
+    "target_name": "Estrogen receptor",
+    "target_type": "PROTEIN FAMILY",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P03372",
+      "Q92731"
+    ],
+    "mechanism_of_action": "Estrogen receptor modulator",
+    "mechanism_record_id": 4566,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL489",
+    "drug_name": "AFIMOXIFENE",
+    "relationship": "ANTAGONIST",
+    "target_id": "CHEMBL4245",
+    "target_name": "Estrogen-related receptor gamma",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P62508"
+    ],
+    "mechanism_of_action": "Estrogen-related receptor gamma antagonist",
+    "mechanism_record_id": 4567,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL487",
+    "drug_name": "DROLOXIFENE",
+    "relationship": "MODULATOR",
+    "target_id": "CHEMBL2093866",
+    "target_name": "Estrogen receptor",
+    "target_type": "PROTEIN FAMILY",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P03372",
+      "Q92731"
+    ],
+    "mechanism_of_action": "Estrogen receptor modulator",
+    "mechanism_record_id": 5215,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL282686",
+    "drug_name": "TESAGLITAZAR",
+    "relationship": "AGONIST",
+    "target_id": "CHEMBL239",
+    "target_name": "Peroxisome proliferator-activated receptor alpha",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "Q07869"
+    ],
+    "mechanism_of_action": "Peroxisome proliferator-activated receptor alpha agonist",
+    "mechanism_record_id": 5231,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL282686",
+    "drug_name": "TESAGLITAZAR",
+    "relationship": "AGONIST",
+    "target_id": "CHEMBL235",
+    "target_name": "Peroxisome proliferator-activated receptor gamma",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P37231"
+    ],
+    "mechanism_of_action": "Peroxisome proliferator-activated receptor gamma agonist",
+    "mechanism_record_id": 5232,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL428690",
+    "drug_name": "ALVOCIDIB",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL301",
+    "target_name": "Cyclin-dependent kinase 2",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P24941"
+    ],
+    "mechanism_of_action": "Cyclin-dependent kinase 2 inhibitor",
+    "mechanism_record_id": 5287,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL428690",
+    "drug_name": "ALVOCIDIB",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL331",
+    "target_name": "Cyclin-dependent kinase 4",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P11802"
+    ],
+    "mechanism_of_action": "Cyclin-dependent kinase 4 inhibitor",
+    "mechanism_record_id": 5288,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL428690",
+    "drug_name": "ALVOCIDIB",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2508",
+    "target_name": "Cyclin-dependent kinase 6",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "Q00534"
+    ],
+    "mechanism_of_action": "Cyclin-dependent kinase 6 inhibitor",
+    "mechanism_record_id": 5289,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL428690",
+    "drug_name": "ALVOCIDIB",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL3116",
+    "target_name": "Cyclin-dependent kinase 9",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P50750"
+    ],
+    "mechanism_of_action": "Cyclin-dependent kinase 9 inhibitor",
+    "mechanism_record_id": 5290,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL428690",
+    "drug_name": "ALVOCIDIB",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL308",
+    "target_name": "Cyclin-dependent kinase 1",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P06493"
+    ],
+    "mechanism_of_action": "Cyclin-dependent kinase 1 inhibitor",
+    "mechanism_record_id": 5291,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL428690",
+    "drug_name": "ALVOCIDIB",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL3055",
+    "target_name": "Cyclin-dependent kinase 7",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P50613"
+    ],
+    "mechanism_of_action": "Cyclin-dependent kinase 7 inhibitor",
+    "mechanism_record_id": 5292,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL276711",
+    "drug_name": "SEMAXANIB",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL1936",
+    "target_name": "Mast/stem cell growth factor receptor Kit",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P10721"
+    ],
+    "mechanism_of_action": "Stem cell growth factor receptor inhibitor",
+    "mechanism_record_id": 5331,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL276711",
+    "drug_name": "SEMAXANIB",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2095227",
+    "target_name": "Vascular endothelial growth factor receptor",
+    "target_type": "PROTEIN FAMILY",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P17948",
+      "P35916",
+      "P35968"
+    ],
+    "mechanism_of_action": "Vascular endothelial growth factor receptor inhibitor",
+    "mechanism_record_id": 5332,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL274654",
+    "drug_name": "ORANTINIB",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2095217",
+    "target_name": "Fibroblast growth factor receptor",
+    "target_type": "PROTEIN FAMILY",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P11362",
+      "P21802",
+      "P22455",
+      "P22607"
+    ],
+    "mechanism_of_action": "Fibroblast growth factor receptor inhibitor",
+    "mechanism_record_id": 5333,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL274654",
+    "drug_name": "ORANTINIB",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2095189",
+    "target_name": "Platelet-derived growth factor receptor",
+    "target_type": "PROTEIN COMPLEX",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P09619",
+      "P16234"
+    ],
+    "mechanism_of_action": "Platelet-derived growth factor receptor inhibitor",
+    "mechanism_record_id": 5334,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL274654",
+    "drug_name": "ORANTINIB",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL279",
+    "target_name": "Vascular endothelial growth factor receptor 2",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P35968"
+    ],
+    "mechanism_of_action": "Vascular endothelial growth factor receptor 2 inhibitor",
+    "mechanism_record_id": 5335,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL278623",
+    "drug_name": "MACIMORELIN",
+    "relationship": "AGONIST",
+    "target_id": "CHEMBL4616",
+    "target_name": "Growth hormone secretagogue receptor type 1",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "Q92847"
+    ],
+    "mechanism_of_action": "Ghrelin receptor agonist",
+    "mechanism_record_id": 5376,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL23261",
+    "drug_name": "DARUSENTAN",
+    "relationship": "ANTAGONIST",
+    "target_id": "CHEMBL252",
+    "target_name": "Endothelin-1 receptor",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P25101"
+    ],
+    "mechanism_of_action": "Endothelin receptor ET-A antagonist",
+    "mechanism_record_id": 5403,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL23261",
+    "drug_name": "DARUSENTAN",
+    "relationship": "ANTAGONIST",
+    "target_id": "CHEMBL1785",
+    "target_name": "Endothelin receptor type B",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P24530"
+    ],
+    "mechanism_of_action": "Endothelin receptor ET-B antagonist",
+    "mechanism_record_id": 5404,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL266510",
+    "drug_name": "FLINDOKALNER",
+    "relationship": "OPENER",
+    "target_id": "CHEMBL4304",
+    "target_name": "Calcium-activated potassium channel subunit alpha-1",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "Q12791"
+    ],
+    "mechanism_of_action": "Calcium-activated potassium channel subunit alpha-1 opener",
+    "mechanism_record_id": 5426,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL266510",
+    "drug_name": "FLINDOKALNER",
+    "relationship": "ACTIVATOR",
+    "target_id": "CHEMBL2925",
+    "target_name": "Potassium voltage-gated channel subfamily KQT member 5",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "Q9NR82"
+    ],
+    "mechanism_of_action": "Voltage-gated potassium channel subunit Kv7.5 activator",
+    "mechanism_record_id": 5427,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL266510",
+    "drug_name": "FLINDOKALNER",
+    "relationship": "ACTIVATOR",
+    "target_id": "CHEMBL3576",
+    "target_name": "Potassium voltage-gated channel subfamily KQT member 4",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P56696"
+    ],
+    "mechanism_of_action": "Voltage-gated potassium channel subunit Kv7.4 activator",
+    "mechanism_record_id": 5428,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL266510",
+    "drug_name": "FLINDOKALNER",
+    "relationship": "ACTIVATOR",
+    "target_id": "CHEMBL2476",
+    "target_name": "Potassium voltage-gated channel subfamily KQT member 2",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "O43526"
+    ],
+    "mechanism_of_action": "Voltage-gated potassium channel subunit Kv7.2 activator",
+    "mechanism_record_id": 5429,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL266510",
+    "drug_name": "FLINDOKALNER",
+    "relationship": "ACTIVATOR",
+    "target_id": "CHEMBL2221348",
+    "target_name": "Voltage-gated potassium channel, KQT; KCNQ2(Kv7.2)/KCNQ3(Kv7.3)",
+    "target_type": "PROTEIN COMPLEX",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "O43525",
+      "O43526"
+    ],
+    "mechanism_of_action": "Voltage-gated potassium channel, KQT; KCNQ2(Kv7.2)/KCNQ3(Kv7.3) activator",
+    "mechanism_record_id": 5430,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL266510",
+    "drug_name": "FLINDOKALNER",
+    "relationship": "ACTIVATOR",
+    "target_id": "CHEMBL3707192",
+    "target_name": "Voltage-gated potassium channel KCNQ3/KCNQ4",
+    "target_type": "PROTEIN COMPLEX",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "O43525",
+      "P56696"
+    ],
+    "mechanism_of_action": "Voltage-gated potassium channel KCNQ3/KCNQ4 activator",
+    "mechanism_record_id": 5431,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL27759",
+    "drug_name": "ENTINOSTAT",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2093865",
+    "target_name": "Histone deacetylase",
+    "target_type": "PROTEIN FAMILY",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "O15379",
+      "P56524",
+      "Q13547",
+      "Q8WUI4",
+      "Q92769",
+      "Q969S8",
+      "Q96DB2",
+      "Q9BY41",
+      "Q9UBN7",
+      "Q9UKV0",
+      "Q9UQL6"
+    ],
+    "mechanism_of_action": "Histone deacetylase inhibitor",
+    "mechanism_record_id": 5646,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL416146",
+    "drug_name": "ETORICOXIB",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL230",
+    "target_name": "Prostaglandin G/H synthase 2",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P35354"
+    ],
+    "mechanism_of_action": "Cyclooxygenase-2 inhibitor",
+    "mechanism_record_id": 5689,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL18901",
+    "drug_name": "EFAPROXIRAL",
+    "relationship": "NEGATIVE MODULATOR",
+    "target_id": "CHEMBL2095168",
+    "target_name": "Hemoglobin HbA",
+    "target_type": "PROTEIN COMPLEX",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P68871",
+      "P69905"
+    ],
+    "mechanism_of_action": "Hemoglobin HbA negative modulator",
+    "mechanism_record_id": 5727,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL204021",
+    "drug_name": "DARAPLADIB",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL3514",
+    "target_name": "Platelet-activating factor acetylhydrolase",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "Q13093"
+    ],
+    "mechanism_of_action": "LDL-associated phospholipase A2 inhibitor",
+    "mechanism_record_id": 5729,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL468",
+    "drug_name": "THALIDOMIDE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL3833061",
+    "target_name": "CRL4(CRBN) E3 ubiquitin ligase",
+    "target_type": "PROTEIN COMPLEX",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P62877",
+      "Q13619",
+      "Q16531",
+      "Q96SW2"
+    ],
+    "mechanism_of_action": "CRL4(CRBN) E3 ubiquitin ligase inhibitor",
+    "mechanism_record_id": 5875,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL19236",
+    "drug_name": "MOXONIDINE",
+    "relationship": "AGONIST",
+    "target_id": "CHEMBL3923",
+    "target_name": "Nischarin",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "Q9Y2I1"
+    ],
+    "mechanism_of_action": "Nischarin agonist",
+    "mechanism_record_id": 5894,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL279785",
+    "drug_name": "MARIMASTAT",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL321",
+    "target_name": "Matrix metalloproteinase-9",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P14780"
+    ],
+    "mechanism_of_action": "Matrix metalloproteinase 9 inhibitor",
+    "mechanism_record_id": 5895,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL14370",
+    "drug_name": "REBOXETINE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL222",
+    "target_name": "Sodium-dependent noradrenaline transporter",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P23975"
+    ],
+    "mechanism_of_action": "Norepinephrine transporter inhibitor",
+    "mechanism_record_id": 5901,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL656",
+    "drug_name": "OXYCODONE",
+    "relationship": "AGONIST",
+    "target_id": "CHEMBL233",
+    "target_name": "Mu-type opioid receptor",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P35372"
+    ],
+    "mechanism_of_action": "Mu opioid receptor agonist",
+    "mechanism_record_id": 6176,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL13376",
+    "drug_name": "CLOMETACIN",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2094253",
+    "target_name": "Cyclooxygenase",
+    "target_type": "PROTEIN FAMILY",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P23219",
+      "P35354"
+    ],
+    "mechanism_of_action": "Cyclooxygenase inhibitor",
+    "mechanism_record_id": 6227,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL15677",
+    "drug_name": "FENCLOFENAC",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2094253",
+    "target_name": "Cyclooxygenase",
+    "target_type": "PROTEIN FAMILY",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P23219",
+      "P35354"
+    ],
+    "mechanism_of_action": "Cyclooxygenase inhibitor",
+    "mechanism_record_id": 6244,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL13280",
+    "drug_name": "FLUNITRAZEPAM",
+    "relationship": "POSITIVE ALLOSTERIC MODULATOR",
+    "target_id": "CHEMBL2093872",
+    "target_name": "GABA-A receptor; anion channel",
+    "target_type": "PROTEIN COMPLEX GROUP",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "O00591",
+      "O14764",
+      "P14867",
+      "P18505",
+      "P18507",
+      "P28472",
+      "P31644",
+      "P34903",
+      "P47869",
+      "P47870",
+      "P48169",
+      "P78334",
+      "Q16445",
+      "Q8N1C3",
+      "Q99928",
+      "Q9UN88"
+    ],
+    "mechanism_of_action": "GABA-A receptor; anion channel positive allosteric modulator",
+    "mechanism_record_id": 6251,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL276520",
+    "drug_name": "INDALPINE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL228",
+    "target_name": "Sodium-dependent serotonin transporter",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P31645"
+    ],
+    "mechanism_of_action": "Serotonin transporter inhibitor",
+    "mechanism_record_id": 6254,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL15870",
+    "drug_name": "INDOPROFEN",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2094253",
+    "target_name": "Cyclooxygenase",
+    "target_type": "PROTEIN FAMILY",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P23219",
+      "P35354"
+    ],
+    "mechanism_of_action": "Cyclooxygenase inhibitor",
+    "mechanism_record_id": 6255,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL282052",
+    "drug_name": "METHAQUALONE",
+    "relationship": "POSITIVE ALLOSTERIC MODULATOR",
+    "target_id": "CHEMBL2093872",
+    "target_name": "GABA-A receptor; anion channel",
+    "target_type": "PROTEIN COMPLEX GROUP",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "O00591",
+      "O14764",
+      "P14867",
+      "P18505",
+      "P18507",
+      "P28472",
+      "P31644",
+      "P34903",
+      "P47869",
+      "P47870",
+      "P48169",
+      "P78334",
+      "Q16445",
+      "Q8N1C3",
+      "Q99928",
+      "Q9UN88"
+    ],
+    "mechanism_of_action": "GABA-A receptor; anion channel positive allosteric modulator",
+    "mechanism_record_id": 6265,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL24072",
+    "drug_name": "PRENYLAMINE",
+    "relationship": "BLOCKER",
+    "target_id": "CHEMBL1980",
+    "target_name": "Sodium channel protein type 5 subunit alpha",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "Q14524"
+    ],
+    "mechanism_of_action": "Sodium channel protein type V alpha subunit blocker",
+    "mechanism_record_id": 6288,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL16476",
+    "drug_name": "PRONETALOL",
+    "relationship": "ANTAGONIST",
+    "target_id": "CHEMBL213",
+    "target_name": "Beta-1 adrenergic receptor",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P08588"
+    ],
+    "mechanism_of_action": "Beta-1 adrenergic receptor antagonist",
+    "mechanism_record_id": 6290,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL22242",
+    "drug_name": "REMOXIPRIDE",
+    "relationship": "ANTAGONIST",
+    "target_id": "CHEMBL217",
+    "target_name": "D(2) dopamine receptor",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P14416"
+    ],
+    "mechanism_of_action": "Dopamine D2 receptor antagonist",
+    "mechanism_record_id": 6294,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL111",
+    "drug_name": "RIMONABANT",
+    "relationship": "ANTAGONIST",
+    "target_id": "CHEMBL218",
+    "target_name": "Cannabinoid receptor 1",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P21554"
+    ],
+    "mechanism_of_action": "Cannabinoid CB1 receptor antagonist",
+    "mechanism_record_id": 6296,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL12713",
+    "drug_name": "SERTINDOLE",
+    "relationship": "ANTAGONIST",
+    "target_id": "CHEMBL217",
+    "target_name": "D(2) dopamine receptor",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P14416"
+    ],
+    "mechanism_of_action": "Dopamine D2 receptor antagonist",
+    "mechanism_record_id": 6297,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL282724",
+    "drug_name": "SITAXENTAN",
+    "relationship": "ANTAGONIST",
+    "target_id": "CHEMBL2096678",
+    "target_name": "Endothelin receptor, ET-A/ET-B",
+    "target_type": "PROTEIN FAMILY",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P24530",
+      "P25101"
+    ],
+    "mechanism_of_action": "Endothelin receptor, ET-A/ET-B antagonist",
+    "mechanism_record_id": 6298,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL268869",
+    "drug_name": "SULFAMETHOXYPYRIDAZINE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2364668",
+    "target_name": "Dihydropteroate synthase",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Bacteria",
+    "uniprot_accessions": [
+      "P0AC13"
+    ],
+    "mechanism_of_action": "Bacterial dihydropteroate synthase inhibitor",
+    "mechanism_record_id": 6305,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL17157",
+    "drug_name": "TERFENADINE",
+    "relationship": "ANTAGONIST",
+    "target_id": "CHEMBL231",
+    "target_name": "Histamine H1 receptor",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P35367"
+    ],
+    "mechanism_of_action": "Histamine H1 receptor antagonist",
+    "mechanism_record_id": 6308,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL436",
+    "drug_name": "TOLRESTAT",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL1900",
+    "target_name": "Aldo-keto reductase family 1 member B1",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P15121"
+    ],
+    "mechanism_of_action": "Aldose reductase inhibitor",
+    "mechanism_record_id": 6313,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL10878",
+    "drug_name": "AGOMELATINE",
+    "relationship": "AGONIST",
+    "target_id": "CHEMBL2094268",
+    "target_name": "Melatonin receptor",
+    "target_type": "PROTEIN FAMILY",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P48039",
+      "P49286"
+    ],
+    "mechanism_of_action": "Melatonin receptor agonist",
+    "mechanism_record_id": 6445,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL43",
+    "drug_name": "AMSACRINE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2094255",
+    "target_name": "DNA topoisomerase II",
+    "target_type": "PROTEIN FAMILY",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P11388",
+      "Q02880"
+    ],
+    "mechanism_of_action": "DNA topoisomerase II inhibitor",
+    "mechanism_record_id": 6455,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL277474",
+    "drug_name": "ANTIPYRINE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL221",
+    "target_name": "Prostaglandin G/H synthase 1",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P23219"
+    ],
+    "mechanism_of_action": "Cyclooxygenase-1 inhibitor",
+    "mechanism_record_id": 6460,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL12610",
+    "drug_name": "BENZYDAMINE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2094253",
+    "target_name": "Cyclooxygenase",
+    "target_type": "PROTEIN FAMILY",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P23219",
+      "P35354"
+    ],
+    "mechanism_of_action": "Cyclooxygenase inhibitor",
+    "mechanism_record_id": 6476,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL24441",
+    "drug_name": "BETAHISTINE",
+    "relationship": "ANTAGONIST",
+    "target_id": "CHEMBL264",
+    "target_name": "Histamine H3 receptor",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "Q9Y5N1"
+    ],
+    "mechanism_of_action": "Histamine H3 receptor antagonist",
+    "mechanism_record_id": 6479,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL277062",
+    "drug_name": "BROMAZEPAM",
+    "relationship": "POSITIVE ALLOSTERIC MODULATOR",
+    "target_id": "CHEMBL4956",
+    "target_name": "Gamma-aminobutyric acid receptor subunit alpha-2",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P47869"
+    ],
+    "mechanism_of_action": "GABA receptor alpha-2 subunit positive allosteric modulator",
+    "mechanism_record_id": 6484,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL28218",
+    "drug_name": "BROMPERIDOL",
+    "relationship": "ANTAGONIST",
+    "target_id": "CHEMBL217",
+    "target_name": "D(2) dopamine receptor",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P14416"
+    ],
+    "mechanism_of_action": "Dopamine D2 receptor antagonist",
+    "mechanism_record_id": 6487,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL27810",
+    "drug_name": "CELIPROLOL",
+    "relationship": "PARTIAL AGONIST",
+    "target_id": "CHEMBL210",
+    "target_name": "Beta-2 adrenergic receptor",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P07550"
+    ],
+    "mechanism_of_action": "Beta-2 adrenergic receptor partial agonist",
+    "mechanism_record_id": 6661,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL22108",
+    "drug_name": "DIMETHINDENE",
+    "relationship": "ANTAGONIST",
+    "target_id": "CHEMBL231",
+    "target_name": "Histamine H1 receptor",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P35367"
+    ],
+    "mechanism_of_action": "Histamine H1 receptor antagonist",
+    "mechanism_record_id": 6702,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL279785",
+    "drug_name": "MARIMASTAT",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL332",
+    "target_name": "Interstitial collagenase",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P03956"
+    ],
+    "mechanism_of_action": "Matrix metalloproteinase-1 inhibitor",
+    "mechanism_record_id": 6849,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL279785",
+    "drug_name": "MARIMASTAT",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL4393",
+    "target_name": "Macrophage metalloelastase",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P39900"
+    ],
+    "mechanism_of_action": "Matrix metalloproteinase 12 inhibitor",
+    "mechanism_record_id": 6850,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL279785",
+    "drug_name": "MARIMASTAT",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL333",
+    "target_name": "72 kDa type IV collagenase",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P08253"
+    ],
+    "mechanism_of_action": "Matrix metalloproteinase-2 inhibitor",
+    "mechanism_record_id": 6851,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL279785",
+    "drug_name": "MARIMASTAT",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL283",
+    "target_name": "Stromelysin-1",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P08254"
+    ],
+    "mechanism_of_action": "Matrix metalloproteinase 3 inhibitor",
+    "mechanism_record_id": 6852,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL279785",
+    "drug_name": "MARIMASTAT",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL4073",
+    "target_name": "Matrilysin",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P09237"
+    ],
+    "mechanism_of_action": "Matrix metalloproteinase 7 inhibitor",
+    "mechanism_record_id": 6853,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL24072",
+    "drug_name": "PRENYLAMINE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL6093",
+    "target_name": "Calmodulin-1",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P0DP23"
+    ],
+    "mechanism_of_action": "Calmodulin inhibitor",
+    "mechanism_record_id": 6862,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL12713",
+    "drug_name": "SERTINDOLE",
+    "relationship": "ANTAGONIST",
+    "target_id": "CHEMBL2094251",
+    "target_name": "Adrenergic receptor alpha-1",
+    "target_type": "PROTEIN FAMILY",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P25100",
+      "P35348",
+      "P35368"
+    ],
+    "mechanism_of_action": "Adrenergic receptor alpha-1 antagonist",
+    "mechanism_record_id": 6865,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL12713",
+    "drug_name": "SERTINDOLE",
+    "relationship": "ANTAGONIST",
+    "target_id": "CHEMBL2096662",
+    "target_name": "Serotonin 2 receptors; 5-HT2a & 5-HT2c",
+    "target_type": "SELECTIVITY GROUP",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P28223",
+      "P28335"
+    ],
+    "mechanism_of_action": "Serotonin 2 receptors; 5-HT2a & 5-HT2c antagonist",
+    "mechanism_record_id": 6866,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL278819",
+    "drug_name": "MINAPRINE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL220",
+    "target_name": "Acetylcholinesterase",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P22303"
+    ],
+    "mechanism_of_action": "Acetylcholinesterase inhibitor",
+    "mechanism_record_id": 6872,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL278819",
+    "drug_name": "MINAPRINE",
+    "relationship": "AGONIST",
+    "target_id": "CHEMBL2111341",
+    "target_name": "Dopamine D1 and D2 receptor",
+    "target_type": "SELECTIVITY GROUP",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P14416",
+      "P21728"
+    ],
+    "mechanism_of_action": "Dopamine D1 and D2 receptor agonist",
+    "mechanism_record_id": 6873,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL278819",
+    "drug_name": "MINAPRINE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL1951",
+    "target_name": "Amine oxidase [flavin-containing] A",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P21397"
+    ],
+    "mechanism_of_action": "Monoamine oxidase A inhibitor",
+    "mechanism_record_id": 6874,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL278819",
+    "drug_name": "MINAPRINE",
+    "relationship": "AGONIST",
+    "target_id": "CHEMBL216",
+    "target_name": "Muscarinic acetylcholine receptor M1",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P11229"
+    ],
+    "mechanism_of_action": "Muscarinic acetylcholine receptor M1 agonist",
+    "mechanism_record_id": 6875,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL27810",
+    "drug_name": "CELIPROLOL",
+    "relationship": "ANTAGONIST",
+    "target_id": "CHEMBL2095158",
+    "target_name": "Adrenergic receptor alpha-2",
+    "target_type": "PROTEIN FAMILY",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P08913",
+      "P18089",
+      "P18825"
+    ],
+    "mechanism_of_action": "Adrenergic receptor alpha-2 antagonist",
+    "mechanism_record_id": 6878,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL27810",
+    "drug_name": "CELIPROLOL",
+    "relationship": "ANTAGONIST",
+    "target_id": "CHEMBL213",
+    "target_name": "Beta-1 adrenergic receptor",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P08588"
+    ],
+    "mechanism_of_action": "Beta-1 adrenergic receptor antagonist",
+    "mechanism_record_id": 6879,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL24441",
+    "drug_name": "BETAHISTINE",
+    "relationship": "AGONIST",
+    "target_id": "CHEMBL231",
+    "target_name": "Histamine H1 receptor",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P35367"
+    ],
+    "mechanism_of_action": "Histamine H1 receptor agonist",
+    "mechanism_record_id": 6881,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL10878",
+    "drug_name": "AGOMELATINE",
+    "relationship": "ANTAGONIST",
+    "target_id": "CHEMBL225",
+    "target_name": "5-hydroxytryptamine receptor 2C",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P28335"
+    ],
+    "mechanism_of_action": "Serotonin 2c (5-HT2c) receptor antagonist",
+    "mechanism_record_id": 6886,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL16476",
+    "drug_name": "PRONETALOL",
+    "relationship": "ANTAGONIST",
+    "target_id": "CHEMBL210",
+    "target_name": "Beta-2 adrenergic receptor",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P07550"
+    ],
+    "mechanism_of_action": "Beta-2 adrenergic receptor antagonist",
+    "mechanism_record_id": 6897,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL655",
+    "drug_name": "MIDAZOLAM",
+    "relationship": "POSITIVE ALLOSTERIC MODULATOR",
+    "target_id": "CHEMBL2093872",
+    "target_name": "GABA-A receptor; anion channel",
+    "target_type": "PROTEIN COMPLEX GROUP",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "O00591",
+      "O14764",
+      "P14867",
+      "P18505",
+      "P18507",
+      "P28472",
+      "P31644",
+      "P34903",
+      "P47869",
+      "P47870",
+      "P48169",
+      "P78334",
+      "Q16445",
+      "Q8N1C3",
+      "Q99928",
+      "Q9UN88"
+    ],
+    "mechanism_of_action": "GABA-A receptor; anion channel positive allosteric modulator",
+    "mechanism_record_id": 7284,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL45",
+    "drug_name": "MELATONIN",
+    "relationship": "AGONIST",
+    "target_id": "CHEMBL2094268",
+    "target_name": "Melatonin receptor",
+    "target_type": "PROTEIN FAMILY",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P48039",
+      "P49286"
+    ],
+    "mechanism_of_action": "Melatonin receptor agonist",
+    "mechanism_record_id": 7514,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL25202",
+    "drug_name": "TAMIBAROTENE",
+    "relationship": "AGONIST",
+    "target_id": "CHEMBL2008",
+    "target_name": "Retinoic acid receptor beta",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P10826"
+    ],
+    "mechanism_of_action": "Retinoic acid receptor beta agonist",
+    "mechanism_record_id": 7519,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL9967",
+    "drug_name": "PIRENZEPINE",
+    "relationship": "ANTAGONIST",
+    "target_id": "CHEMBL216",
+    "target_name": "Muscarinic acetylcholine receptor M1",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P11229"
+    ],
+    "mechanism_of_action": "Muscarinic acetylcholine receptor M1 antagonist",
+    "mechanism_record_id": 7532,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL18116",
+    "drug_name": "TOLOXATONE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL1951",
+    "target_name": "Amine oxidase [flavin-containing] A",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P21397"
+    ],
+    "mechanism_of_action": "Monoamine oxidase A inhibitor",
+    "mechanism_record_id": 7563,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL25202",
+    "drug_name": "TAMIBAROTENE",
+    "relationship": "AGONIST",
+    "target_id": "CHEMBL2055",
+    "target_name": "Retinoic acid receptor alpha",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P10276"
+    ],
+    "mechanism_of_action": "Retinoic acid receptor alpha agonist",
+    "mechanism_record_id": 7567,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL19299",
+    "drug_name": "LOXOPROFEN",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2094253",
+    "target_name": "Cyclooxygenase",
+    "target_type": "PROTEIN FAMILY",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P23219",
+      "P35354"
+    ],
+    "mechanism_of_action": "Cyclooxygenase inhibitor",
+    "mechanism_record_id": 7568,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL19449",
+    "drug_name": "IBUDILAST",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2093863",
+    "target_name": "Phosphodiesterase 4",
+    "target_type": "PROTEIN FAMILY",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P27815",
+      "Q07343",
+      "Q08493",
+      "Q08499"
+    ],
+    "mechanism_of_action": "Phosphodiesterase 4 inhibitor",
+    "mechanism_record_id": 7569,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL19449",
+    "drug_name": "IBUDILAST",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL241",
+    "target_name": "cGMP-inhibited 3',5'-cyclic phosphodiesterase 3A",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "Q14432"
+    ],
+    "mechanism_of_action": "Phosphodiesterase 3A inhibitor",
+    "mechanism_record_id": 7572,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL21333",
+    "drug_name": "PRANLUKAST",
+    "relationship": "ANTAGONIST",
+    "target_id": "CHEMBL1798",
+    "target_name": "Cysteinyl leukotriene receptor 1",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "Q9Y271"
+    ],
+    "mechanism_of_action": "Cysteinyl leukotriene receptor 1 antagonist",
+    "mechanism_record_id": 7574,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL19449",
+    "drug_name": "IBUDILAST",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL4409",
+    "target_name": "cAMP and cAMP-inhibited cGMP 3',5'-cyclic phosphodiesterase 10A",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "Q9Y233"
+    ],
+    "mechanism_of_action": "Phosphodiesterase 10A inhibitor",
+    "mechanism_record_id": 7583,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL19449",
+    "drug_name": "IBUDILAST",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL1827",
+    "target_name": "cGMP-specific 3',5'-cyclic phosphodiesterase",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "O76074"
+    ],
+    "mechanism_of_action": "Phosphodiesterase 5A inhibitor",
+    "mechanism_record_id": 7584,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL11662",
+    "drug_name": "OZAGREL",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL1835",
+    "target_name": "Thromboxane-A synthase",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P24557"
+    ],
+    "mechanism_of_action": "Thromboxane-A synthase inhibitor",
+    "mechanism_record_id": 7616,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL26",
+    "drug_name": "SULPIRIDE",
+    "relationship": "ANTAGONIST",
+    "target_id": "CHEMBL217",
+    "target_name": "D(2) dopamine receptor",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P14416"
+    ],
+    "mechanism_of_action": "Dopamine D2 receptor antagonist",
+    "mechanism_record_id": 7639,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL484",
+    "drug_name": "ADEFOVIR",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2362994",
+    "target_name": "DNA polymerase/reverse transcriptase",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Hepatitis B virus",
+    "uniprot_accessions": [
+      "Q9IF40"
+    ],
+    "mechanism_of_action": "DNA polymerase/reverse transcriptase inhibitor",
+    "mechanism_record_id": 7849,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL483",
+    "drug_name": "TENOFOVIR ANHYDROUS",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL247",
+    "target_name": "Human immunodeficiency virus type 1 reverse transcriptase",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Human immunodeficiency virus 1",
+    "uniprot_accessions": [
+      "Q72547"
+    ],
+    "mechanism_of_action": "Human immunodeficiency virus type 1 reverse transcriptase inhibitor",
+    "mechanism_record_id": 7870,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL6995",
+    "drug_name": "PRACTOLOL",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL213",
+    "target_name": "Beta-1 adrenergic receptor",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P08588"
+    ],
+    "mechanism_of_action": "Beta-1 adrenergic receptor inhibitor",
+    "mechanism_record_id": 8353,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL266497",
+    "drug_name": "SORBINIL",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL1900",
+    "target_name": "Aldo-keto reductase family 1 member B1",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P15121"
+    ],
+    "mechanism_of_action": "Aldose reductase inhibitor",
+    "mechanism_record_id": 8436,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL483",
+    "drug_name": "TENOFOVIR ANHYDROUS",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2362994",
+    "target_name": "DNA polymerase/reverse transcriptase",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Hepatitis B virus",
+    "uniprot_accessions": [
+      "Q9IF40"
+    ],
+    "mechanism_of_action": "DNA polymerase/reverse transcriptase inhibitor",
+    "mechanism_record_id": 8516,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL8",
+    "drug_name": "CIPROFLOXACIN",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2363076",
+    "target_name": "Topoisomerase IV",
+    "target_type": "PROTEIN COMPLEX",
+    "target_organism": "Bacteria",
+    "uniprot_accessions": [
+      "P0AFI2",
+      "P20083"
+    ],
+    "mechanism_of_action": "Topoisomerase IV inhibitor",
+    "mechanism_record_id": 8639,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL278819",
+    "drug_name": "MINAPRINE",
+    "relationship": "ANTAGONIST",
+    "target_id": "CHEMBL2095200",
+    "target_name": "Serotonin 2 (5-HT2) receptor",
+    "target_type": "PROTEIN FAMILY",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P28223",
+      "P28335",
+      "P41595"
+    ],
+    "mechanism_of_action": "Serotonin 2 (5-HT2) receptor antagonist",
+    "mechanism_record_id": 8641,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL21536",
+    "drug_name": "XANOMELINE",
+    "relationship": "AGONIST",
+    "target_id": "CHEMBL1821",
+    "target_name": "Muscarinic acetylcholine receptor M4",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P08173"
+    ],
+    "mechanism_of_action": "Muscarinic acetylcholine receptor M4 agonist",
+    "mechanism_record_id": 8758,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL21536",
+    "drug_name": "XANOMELINE",
+    "relationship": "AGONIST",
+    "target_id": "CHEMBL216",
+    "target_name": "Muscarinic acetylcholine receptor M1",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P11229"
+    ],
+    "mechanism_of_action": "Muscarinic acetylcholine receptor M1 agonist",
+    "mechanism_record_id": 8761,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL20883",
+    "drug_name": "TEGAFUR",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2311222",
+    "target_name": "RNA",
+    "target_type": "NUCLEIC-ACID",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [],
+    "mechanism_of_action": "RNA inhibitor",
+    "mechanism_record_id": 8790,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL25336",
+    "drug_name": "BISANTRENE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2331065",
+    "target_name": "Alpha-ketoglutarate-dependent dioxygenase FTO",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "Q9C0B1"
+    ],
+    "mechanism_of_action": "Alpha-ketoglutarate-dependent dioxygenase FTO inhibitor",
+    "mechanism_record_id": 8791,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL12948",
+    "drug_name": "SEMUSTINE",
+    "relationship": "CROSS-LINKING AGENT",
+    "target_id": "CHEMBL2311221",
+    "target_name": "DNA",
+    "target_type": "NUCLEIC-ACID",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [],
+    "mechanism_of_action": "DNA cross-linking agent",
+    "mechanism_record_id": 8886,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL17879",
+    "drug_name": "MARALIXIBAT CHLORIDE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2778",
+    "target_name": "Ileal sodium/bile acid cotransporter",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "Q12908"
+    ],
+    "mechanism_of_action": "Ileal bile acid transporter inhibitor",
+    "mechanism_record_id": 8902,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL10316",
+    "drug_name": "IDAZOXAN",
+    "relationship": "ANTAGONIST",
+    "target_id": "CHEMBL2095158",
+    "target_name": "Adrenergic receptor alpha-2",
+    "target_type": "PROTEIN FAMILY",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P08913",
+      "P18089",
+      "P18825"
+    ],
+    "mechanism_of_action": "Adrenergic receptor alpha-2 antagonist",
+    "mechanism_record_id": 8913,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL15413",
+    "drug_name": "FLOMOXEF",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2354204",
+    "target_name": "Bacterial penicillin-binding protein",
+    "target_type": "PROTEIN FAMILY",
+    "target_organism": "Bacteria",
+    "uniprot_accessions": [
+      "P02918",
+      "P02919",
+      "P08506",
+      "P0AD65",
+      "P0AD68",
+      "P0AEB2",
+      "P24228"
+    ],
+    "mechanism_of_action": "Bacterial penicillin-binding protein inhibitor",
+    "mechanism_record_id": 8972,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL25336",
+    "drug_name": "BISANTRENE",
+    "relationship": "DISRUPTING AGENT",
+    "target_id": "CHEMBL2311221",
+    "target_name": "DNA",
+    "target_type": "NUCLEIC-ACID",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [],
+    "mechanism_of_action": "DNA disrupting agent",
+    "mechanism_record_id": 8975,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL20883",
+    "drug_name": "TEGAFUR",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL1952",
+    "target_name": "Thymidylate synthase",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P04818"
+    ],
+    "mechanism_of_action": "Thymidylate synthase inhibitor",
+    "mechanism_record_id": 9000,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL17976",
+    "drug_name": "RESINIFERATOXIN",
+    "relationship": "AGONIST",
+    "target_id": "CHEMBL4794",
+    "target_name": "Transient receptor potential cation channel subfamily V member 1",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "Q8NER1"
+    ],
+    "mechanism_of_action": "Vanilloid receptor agonist",
+    "mechanism_record_id": 9007,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL20883",
+    "drug_name": "TEGAFUR",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2311221",
+    "target_name": "DNA",
+    "target_type": "NUCLEIC-ACID",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [],
+    "mechanism_of_action": "DNA inhibitor",
+    "mechanism_record_id": 9026,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL277535",
+    "drug_name": "BIFONAZOLE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL4662933",
+    "target_name": "Lanosterol 14-alpha demethylase",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Fungi",
+    "uniprot_accessions": [
+      "P10613"
+    ],
+    "mechanism_of_action": "Lanosterol 14-alpha demethylase inhibitor",
+    "mechanism_record_id": 9232,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL277535",
+    "drug_name": "BIFONAZOLE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL4804261",
+    "target_name": "3-hydroxy-3-methylglutaryl-coenzyme A reductase",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Dermatophytes",
+    "uniprot_accessions": [
+      "Q10283"
+    ],
+    "mechanism_of_action": "HMG-CoA reductase inhibitor",
+    "mechanism_record_id": 9433,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL535",
+    "drug_name": "SUNITINIB",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL1844",
+    "target_name": "Macrophage colony-stimulating factor 1 receptor",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P07333"
+    ],
+    "mechanism_of_action": "Macrophage colony stimulating factor receptor inhibitor",
+    "mechanism_record_id": 9798,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL535",
+    "drug_name": "SUNITINIB",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL279",
+    "target_name": "Vascular endothelial growth factor receptor 2",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P35968"
+    ],
+    "mechanism_of_action": "Vascular endothelial growth factor receptor 2 inhibitor",
+    "mechanism_record_id": 9799,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL535",
+    "drug_name": "SUNITINIB",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL1936",
+    "target_name": "Mast/stem cell growth factor receptor Kit",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P10721"
+    ],
+    "mechanism_of_action": "Stem cell growth factor receptor inhibitor",
+    "mechanism_record_id": 9800,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL535",
+    "drug_name": "SUNITINIB",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL1913",
+    "target_name": "Platelet-derived growth factor receptor beta",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P09619"
+    ],
+    "mechanism_of_action": "Platelet-derived growth factor receptor beta inhibitor",
+    "mechanism_record_id": 9801,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL535",
+    "drug_name": "SUNITINIB",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2007",
+    "target_name": "Platelet-derived growth factor receptor alpha",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P16234"
+    ],
+    "mechanism_of_action": "Platelet-derived growth factor receptor alpha inhibitor",
+    "mechanism_record_id": 9802,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL535",
+    "drug_name": "SUNITINIB",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL1868",
+    "target_name": "Vascular endothelial growth factor receptor 1",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P17948"
+    ],
+    "mechanism_of_action": "Vascular endothelial growth factor receptor 1 inhibitor",
+    "mechanism_record_id": 9803,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL535",
+    "drug_name": "SUNITINIB",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL1955",
+    "target_name": "Vascular endothelial growth factor receptor 3",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P35916"
+    ],
+    "mechanism_of_action": "Vascular endothelial growth factor receptor 3 inhibitor",
+    "mechanism_record_id": 9804,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL535",
+    "drug_name": "SUNITINIB",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL1974",
+    "target_name": "Receptor-type tyrosine-protein kinase FLT3",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P36888"
+    ],
+    "mechanism_of_action": "Tyrosine-protein kinase receptor FLT3 inhibitor",
+    "mechanism_record_id": 9805,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL535",
+    "drug_name": "SUNITINIB",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2041",
+    "target_name": "Proto-oncogene tyrosine-protein kinase receptor Ret",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P07949"
+    ],
+    "mechanism_of_action": "Tyrosine-protein kinase receptor RET inhibitor",
+    "mechanism_record_id": 9806,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL427",
+    "drug_name": "MECHLORETHAMINE",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2311221",
+    "target_name": "DNA",
+    "target_type": "NUCLEIC-ACID",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [],
+    "mechanism_of_action": "DNA inhibitor",
+    "mechanism_record_id": 9811,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL121",
+    "drug_name": "ROSIGLITAZONE",
+    "relationship": "AGONIST",
+    "target_id": "CHEMBL235",
+    "target_name": "Peroxisome proliferator-activated receptor gamma",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P37231"
+    ],
+    "mechanism_of_action": "Peroxisome proliferator-activated receptor gamma agonist",
+    "mechanism_record_id": 9861,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL428",
+    "drug_name": "TROVAFLOXACIN",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2363076",
+    "target_name": "Topoisomerase IV",
+    "target_type": "PROTEIN COMPLEX",
+    "target_organism": "Bacteria",
+    "uniprot_accessions": [
+      "P0AFI2",
+      "P20083"
+    ],
+    "mechanism_of_action": "Topoisomerase IV inhibitor",
+    "mechanism_record_id": 9870,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL92",
+    "drug_name": "DOCETAXEL ANHYDROUS",
+    "relationship": "STABILISER",
+    "target_id": "CHEMBL2095182",
+    "target_name": "Tubulin",
+    "target_type": "PROTEIN COMPLEX GROUP",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P04350",
+      "P07437",
+      "P0DPH7",
+      "P68363",
+      "P68366",
+      "P68371",
+      "Q13509",
+      "Q13885",
+      "Q3ZCM7",
+      "Q6PEY2",
+      "Q71U36",
+      "Q9BQE3",
+      "Q9BUF5",
+      "Q9BVA1",
+      "Q9H4B7"
+    ],
+    "mechanism_of_action": "Tubulin stabiliser",
+    "mechanism_record_id": 9960,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL428",
+    "drug_name": "TROVAFLOXACIN",
+    "relationship": "INHIBITOR",
+    "target_id": "CHEMBL2311224",
+    "target_name": "Bacterial DNA gyrase",
+    "target_type": "PROTEIN COMPLEX",
+    "target_organism": "Bacteria",
+    "uniprot_accessions": [
+      "P0AES4",
+      "P0AES6"
+    ],
+    "mechanism_of_action": "Bacterial DNA gyrase inhibitor",
+    "mechanism_record_id": 9967,
+    "evidence_source": "ChEMBL mechanism"
+  },
+  {
+    "drug_id": "CHEMBL81",
+    "drug_name": "RALOXIFENE",
+    "relationship": "MODULATOR",
+    "target_id": "CHEMBL206",
+    "target_name": "Estrogen receptor",
+    "target_type": "SINGLE PROTEIN",
+    "target_organism": "Homo sapiens",
+    "uniprot_accessions": [
+      "P03372"
+    ],
+    "mechanism_of_action": "Estrogen receptor modulator",
+    "mechanism_record_id": 10131,
+    "evidence_source": "ChEMBL mechanism"
+  }
+]
