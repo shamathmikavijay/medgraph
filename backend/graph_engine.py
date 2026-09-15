@@ -1,246 +1,259 @@
 import json
-from pathlib import Path
-
+import os
 import networkx as nx
 
 
-# ---------------------------------------------------------
-# DATA FILE
-# ---------------------------------------------------------
+# =========================================================
+# 1. LOCATE DATA FOLDER
+# =========================================================
 
-RELATIONSHIPS_FILE = (
-    Path(__file__).parent / "data" / "relationships.json"
-)
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_DIR = os.path.join(BASE_DIR, "data")
 
 
-# ---------------------------------------------------------
-# LOAD CHemBL RELATIONSHIP DATA
-# ---------------------------------------------------------
+# =========================================================
+# 2. LOAD JSON FILES
+# =========================================================
 
-def load_relationships():
-    """
-    Load drug-target/mechanism relationships collected
-    from ChEMBL.
-    """
+def load_json(filename):
+    path = os.path.join(DATA_DIR, filename)
 
-    if not RELATIONSHIPS_FILE.exists():
-        print(
-            f"Warning: relationships.json not found at "
-            f"{RELATIONSHIPS_FILE}"
+    with open(path, "r", encoding="utf-8") as file:
+        return json.load(file)
+
+
+# =========================================================
+# 3. LOAD DATASETS
+# =========================================================
+
+drugs = load_json("drugs.json")
+indications = load_json("indications.json")
+relationships = load_json("relationships.json")
+
+
+# =========================================================
+# 4. CREATE KNOWLEDGE GRAPH
+# =========================================================
+
+G = nx.Graph()
+
+
+# =========================================================
+# 5. ADD DRUG NODES
+# =========================================================
+
+for drug in drugs:
+
+    drug_id = drug.get("chembl_id")
+    drug_name = drug.get("name")
+
+    if not drug_id or not drug_name:
+        continue
+
+    G.add_node(
+        drug_id,
+        type="drug",
+        name=drug_name,
+        max_phase=drug.get("max_phase"),
+        molecule_type=drug.get("molecule_type"),
+        first_approval=drug.get("first_approval"),
+        oral=drug.get("oral"),
+        parenteral=drug.get("parenteral"),
+        topical=drug.get("topical"),
+        black_box_warning=drug.get("black_box_warning"),
+        evidence_source=drug.get("source", "ChEMBL")
+    )
+
+
+# =========================================================
+# 6. ADD CONDITION / INDICATION NODES
+# =========================================================
+
+for record in indications:
+
+    drug_id = record.get("drug_id")
+    condition = record.get("condition")
+
+    if not drug_id or not condition:
+        continue
+
+    if drug_id not in G:
+        continue
+
+    condition_id = "condition:" + condition.lower().strip()
+
+    G.add_node(
+        condition_id,
+        type="condition",
+        name=condition
+    )
+
+    G.add_edge(
+        drug_id,
+        condition_id,
+        relationship="associated_with_indication",
+        evidence_source=record.get(
+            "evidence_source",
+            "ChEMBL drug_indication"
+        ),
+        mesh_id=record.get("mesh_id"),
+        mesh_heading=record.get("mesh_heading"),
+        efo_id=record.get("efo_id"),
+        efo_term=record.get("efo_term"),
+        max_phase_for_indication=record.get(
+            "max_phase_for_indication"
         )
-        return []
-
-    try:
-        with open(
-            RELATIONSHIPS_FILE,
-            "r",
-            encoding="utf-8"
-        ) as file:
-            return json.load(file)
-
-    except (json.JSONDecodeError, OSError) as error:
-        print(f"Error loading relationships.json: {error}")
-        return []
+    )
 
 
-# ---------------------------------------------------------
-# BUILD KNOWLEDGE GRAPH
-# ---------------------------------------------------------
+# =========================================================
+# 7. ADD BIOLOGICAL TARGET NODES
+# =========================================================
 
-def build_graph():
-    """
-    Build a NetworkX graph containing:
+for record in relationships:
 
-    Drug ---- biological relationship ---- Target
-    """
+    drug_id = record.get("drug_id")
+    target_id = record.get("target_id")
 
-    data = load_relationships()
+    if not drug_id or not target_id:
+        continue
 
-    graph = nx.Graph()
+    if drug_id not in G:
+        continue
 
-    for item in data:
+    G.add_node(
+        target_id,
+        type="target",
+        name=record.get("target_name"),
+        target_type=record.get("target_type"),
+        organism=record.get("target_organism"),
+        uniprot_accessions=record.get(
+            "uniprot_accessions",
+            []
+        )
+    )
 
-        drug_id = item.get("drug_id")
-        drug_name = item.get("drug_name")
-
-        target_id = item.get("target_id")
-        target_name = item.get("target_name")
-
-        relationship = item.get(
+    G.add_edge(
+        drug_id,
+        target_id,
+        relationship=record.get(
             "relationship",
             "TARGETS"
+        ),
+        mechanism_of_action=record.get(
+            "mechanism_of_action"
+        ),
+        evidence_source=record.get(
+            "evidence_source",
+            "ChEMBL mechanism"
+        ),
+        mechanism_record_id=record.get(
+            "mechanism_record_id"
         )
+    )
 
-        if not drug_id or not target_id:
+
+# =========================================================
+# 8. FIND DRUG BY NAME
+# =========================================================
+
+def find_drug_by_name(drug_name):
+
+    search_name = drug_name.lower().strip()
+
+    for node_id, data in G.nodes(data=True):
+
+        if data.get("type") != "drug":
             continue
 
-        drug_node = f"drug:{drug_id}"
-        target_node = f"target:{target_id}"
+        name = data.get("name")
 
-        # -----------------------------
-        # DRUG NODE
-        # -----------------------------
-
-        graph.add_node(
-            drug_node,
-            node_type="drug",
-            id=drug_id,
-            name=drug_name
-        )
-
-        # -----------------------------
-        # TARGET NODE
-        # -----------------------------
-
-        graph.add_node(
-            target_node,
-            node_type="target",
-            id=target_id,
-            name=target_name,
-            target_type=item.get("target_type"),
-            organism=item.get("target_organism"),
-            uniprot_accessions=item.get(
-                "uniprot_accessions",
-                []
-            )
-        )
-
-        # -----------------------------
-        # DRUG → TARGET EDGE
-        # -----------------------------
-
-        graph.add_edge(
-            drug_node,
-            target_node,
-            relationship=relationship,
-            mechanism_of_action=item.get(
-                "mechanism_of_action"
-            ),
-            mechanism_record_id=item.get(
-                "mechanism_record_id"
-            ),
-            evidence_source=item.get(
-                "evidence_source",
-                "ChEMBL mechanism"
-            )
-        )
-
-    return graph
-
-
-# ---------------------------------------------------------
-# CREATE GRAPH ONCE
-# ---------------------------------------------------------
-
-GRAPH = build_graph()
-
-
-# ---------------------------------------------------------
-# FIND DRUG NODE
-# ---------------------------------------------------------
-
-def find_drug_node(drug_id):
-    node = f"drug:{drug_id}"
-
-    if GRAPH.has_node(node):
-        return node
+        if name and name.lower().strip() == search_name:
+            return node_id
 
     return None
 
 
-# ---------------------------------------------------------
-# GET TARGETS FOR ONE DRUG
-# ---------------------------------------------------------
+# =========================================================
+# 9. FIND DRUGS FOR CONDITION / INDICATION
+# =========================================================
 
-def get_drug_targets(drug_id):
+def find_drugs_for_condition(condition_name):
 
-    drug_node = find_drug_node(drug_id)
+    search_name = condition_name.lower().strip()
 
-    if not drug_node:
-        return []
+    matched_drugs = []
 
-    targets = []
+    for node_id, data in G.nodes(data=True):
 
-    for neighbor in GRAPH.neighbors(drug_node):
-
-        node_data = GRAPH.nodes[neighbor]
-        edge_data = GRAPH.edges[drug_node, neighbor]
-
-        if node_data.get("node_type") != "target":
+        if data.get("type") != "condition":
             continue
 
-        targets.append({
-            "target_id": node_data.get("id"),
-            "target_name": node_data.get("name"),
-            "target_type": node_data.get("target_type"),
-            "organism": node_data.get("organism"),
-            "uniprot_accessions": node_data.get(
-                "uniprot_accessions",
-                []
-            ),
-            "relationship": edge_data.get(
-                "relationship"
-            ),
-            "mechanism_of_action": edge_data.get(
-                "mechanism_of_action"
-            ),
-            "mechanism_record_id": edge_data.get(
-                "mechanism_record_id"
-            ),
-            "evidence_source": edge_data.get(
-                "evidence_source"
-            )
-        })
+        condition = data.get("name")
 
-    return targets
+        if not condition:
+            continue
+
+        if search_name in condition.lower():
+
+            for neighbour in G.neighbors(node_id):
+
+                neighbour_data = G.nodes[neighbour]
+
+                if neighbour_data.get("type") == "drug":
+
+                    matched_drugs.append({
+                        "drug_id": neighbour,
+                        "drug_name": neighbour_data.get("name"),
+                        "condition": condition
+                    })
+
+    # Remove duplicates
+    unique_drugs = {}
+
+    for drug in matched_drugs:
+        unique_drugs[drug["drug_id"]] = drug
+
+    return list(unique_drugs.values())
 
 
-# ---------------------------------------------------------
-# COMPARE TWO MEDICINES
-# ---------------------------------------------------------
+# =========================================================
+# 10. FIND SHARED BIOLOGICAL TARGETS
+# =========================================================
 
-def analyze_drug_pair(drug_a_id, drug_b_id):
-    """
-    Compare two medicines using their biological targets.
+def find_shared_targets(drug_a_name, drug_b_name):
 
-    This detects shared biological targets from the
-    ChEMBL mechanism dataset.
+    drug_a = find_drug_by_name(drug_a_name)
+    drug_b = find_drug_by_name(drug_b_name)
 
-    It does NOT determine whether the medicines are
-    clinically safe or unsafe to take together.
-    """
+    if not drug_a or not drug_b:
+        return []
 
-    node_a = find_drug_node(drug_a_id)
-    node_b = find_drug_node(drug_b_id)
+    targets_a = {
+        neighbour
+        for neighbour in G.neighbors(drug_a)
+        if G.nodes[neighbour].get("type") == "target"
+    }
 
-    if not node_a or not node_b:
-        return {
-            "relationship_label": "Insufficient evidence",
-            "message": (
-                "Mechanism/target evidence for one or both "
-                "medicines was not found in the current dataset."
-            ),
-            "shared_targets": [],
-            "paths": []
-        }
+    targets_b = {
+        neighbour
+        for neighbour in G.neighbors(drug_b)
+        if G.nodes[neighbour].get("type") == "target"
+    }
 
-    targets_a = set(GRAPH.neighbors(node_a))
-    targets_b = set(GRAPH.neighbors(node_b))
+    shared = targets_a.intersection(targets_b)
 
-    shared_target_nodes = targets_a.intersection(targets_b)
+    results = []
 
-    shared_targets = []
-    paths = []
+    for target_id in sorted(shared):
 
-    for target_node in shared_target_nodes:
+        target_data = G.nodes[target_id]
 
-        target_data = GRAPH.nodes[target_node]
+        edge_a = G.edges[drug_a, target_id]
+        edge_b = G.edges[drug_b, target_id]
 
-        edge_a = GRAPH.edges[node_a, target_node]
-        edge_b = GRAPH.edges[node_b, target_node]
-
-        shared_targets.append({
-            "target_id": target_data.get("id"),
+        results.append({
+            "target_id": target_id,
             "target_name": target_data.get("name"),
             "target_type": target_data.get("target_type"),
             "organism": target_data.get("organism"),
@@ -248,105 +261,409 @@ def analyze_drug_pair(drug_a_id, drug_b_id):
                 "uniprot_accessions",
                 []
             ),
+
             "drug_a_relationship": edge_a.get(
                 "relationship"
             ),
+
             "drug_b_relationship": edge_b.get(
                 "relationship"
             ),
+
             "drug_a_mechanism": edge_a.get(
                 "mechanism_of_action"
             ),
+
             "drug_b_mechanism": edge_b.get(
                 "mechanism_of_action"
             ),
-            "evidence_source": "ChEMBL mechanism"
+
+            "drug_a_evidence_source": edge_a.get(
+                "evidence_source"
+            ),
+
+            "drug_b_evidence_source": edge_b.get(
+                "evidence_source"
+            ),
+
+            "drug_a_mechanism_record_id": edge_a.get(
+                "mechanism_record_id"
+            ),
+
+            "drug_b_mechanism_record_id": edge_b.get(
+                "mechanism_record_id"
+            )
         })
 
-        paths.append({
-            "nodes": [
-                GRAPH.nodes[node_a].get("name"),
-                target_data.get("name"),
-                GRAPH.nodes[node_b].get("name")
-            ],
-            "type": "shared_target"
-        })
+    return results
+
+
+# =========================================================
+# 11. ANALYZE TWO MEDICINES
+# =========================================================
+
+def analyze_medicines(drug_a_name, drug_b_name):
+
+    drug_a = find_drug_by_name(drug_a_name)
+    drug_b = find_drug_by_name(drug_b_name)
+
+    # -----------------------------------------------------
+    # Check whether medicines exist
+    # -----------------------------------------------------
+
+    if not drug_a or not drug_b:
+
+        missing = []
+
+        if not drug_a:
+            missing.append(drug_a_name)
+
+        if not drug_b:
+            missing.append(drug_b_name)
+
+        return {
+            "found": False,
+            "relationship_label": "Insufficient evidence",
+            "relationship_type": "medicine_not_found",
+            "missing_medicines": missing,
+            "message": (
+                "One or both medicines were not found "
+                "in the current MedGraph dataset."
+            )
+        }
+
+    # -----------------------------------------------------
+    # Look for shared biological targets
+    # -----------------------------------------------------
+
+    shared_targets = find_shared_targets(
+        drug_a_name,
+        drug_b_name
+    )
 
     if shared_targets:
 
-        relationship_label = "Direct biological relationship"
+        graph_nodes = [
+            {
+                "id": drug_a,
+                "name": G.nodes[drug_a].get("name"),
+                "type": "drug"
+            },
+            {
+                "id": drug_b,
+                "name": G.nodes[drug_b].get("name"),
+                "type": "drug"
+            }
+        ]
 
-        message = (
-            "Both medicines connect to at least one shared "
-            "biological target in the current ChEMBL "
-            "mechanism dataset."
-        )
+        graph_edges = []
 
-    else:
+        for target in shared_targets:
 
-        relationship_label = "Limited evidence"
+            target_id = target["target_id"]
 
-        message = (
-            "Both medicines have mechanism records in the "
-            "dataset, but no shared biological target was "
-            "identified in the current graph."
-        )
+            graph_nodes.append({
+                "id": target_id,
+                "name": target["target_name"],
+                "type": "target",
+                "target_type": target["target_type"],
+                "organism": target["organism"],
+                "uniprot_accessions": target[
+                    "uniprot_accessions"
+                ]
+            })
+
+            graph_edges.append({
+                "source": drug_a,
+                "target": target_id,
+                "relationship": target[
+                    "drug_a_relationship"
+                ],
+                "mechanism_of_action": target[
+                    "drug_a_mechanism"
+                ],
+                "evidence_source": target[
+                    "drug_a_evidence_source"
+                ],
+                "mechanism_record_id": target[
+                    "drug_a_mechanism_record_id"
+                ]
+            })
+
+            graph_edges.append({
+                "source": drug_b,
+                "target": target_id,
+                "relationship": target[
+                    "drug_b_relationship"
+                ],
+                "mechanism_of_action": target[
+                    "drug_b_mechanism"
+                ],
+                "evidence_source": target[
+                    "drug_b_evidence_source"
+                ],
+                "mechanism_record_id": target[
+                    "drug_b_mechanism_record_id"
+                ]
+            })
+
+        return {
+            "found": True,
+
+            "relationship_label":
+                "Direct biological relationship",
+
+            "relationship_type":
+                "shared_biological_target",
+
+            "drug_a": {
+                "id": drug_a,
+                "name": G.nodes[drug_a].get("name")
+            },
+
+            "drug_b": {
+                "id": drug_b,
+                "name": G.nodes[drug_b].get("name")
+            },
+
+            "shared_target_count": len(shared_targets),
+
+            "shared_targets": shared_targets,
+
+            "graph": {
+                "nodes": graph_nodes,
+                "edges": graph_edges
+            },
+
+            "message": (
+                "These medicines share one or more "
+                "biological targets represented in the "
+                "ChEMBL-derived knowledge graph. "
+                "This represents a biological connection "
+                "and does not by itself establish a "
+                "clinical drug-drug interaction."
+            )
+        }
+
+    # -----------------------------------------------------
+    # Look for shared indications
+    # -----------------------------------------------------
+
+    conditions_a = {
+        neighbour
+        for neighbour in G.neighbors(drug_a)
+        if G.nodes[neighbour].get("type") == "condition"
+    }
+
+    conditions_b = {
+        neighbour
+        for neighbour in G.neighbors(drug_b)
+        if G.nodes[neighbour].get("type") == "condition"
+    }
+
+    shared_conditions = conditions_a.intersection(
+        conditions_b
+    )
+
+    if shared_conditions:
+
+        condition_results = []
+
+        graph_nodes = [
+            {
+                "id": drug_a,
+                "name": G.nodes[drug_a].get("name"),
+                "type": "drug"
+            },
+            {
+                "id": drug_b,
+                "name": G.nodes[drug_b].get("name"),
+                "type": "drug"
+            }
+        ]
+
+        graph_edges = []
+
+        for condition_id in sorted(shared_conditions):
+
+            condition_name = G.nodes[
+                condition_id
+            ].get("name")
+
+            condition_results.append({
+                "condition_id": condition_id,
+                "condition_name": condition_name
+            })
+
+            graph_nodes.append({
+                "id": condition_id,
+                "name": condition_name,
+                "type": "condition"
+            })
+
+            edge_a = G.edges[
+                drug_a,
+                condition_id
+            ]
+
+            edge_b = G.edges[
+                drug_b,
+                condition_id
+            ]
+
+            graph_edges.append({
+                "source": drug_a,
+                "target": condition_id,
+                "relationship": edge_a.get(
+                    "relationship"
+                ),
+                "evidence_source": edge_a.get(
+                    "evidence_source"
+                ),
+                "mesh_id": edge_a.get("mesh_id"),
+                "efo_id": edge_a.get("efo_id")
+            })
+
+            graph_edges.append({
+                "source": drug_b,
+                "target": condition_id,
+                "relationship": edge_b.get(
+                    "relationship"
+                ),
+                "evidence_source": edge_b.get(
+                    "evidence_source"
+                ),
+                "mesh_id": edge_b.get("mesh_id"),
+                "efo_id": edge_b.get("efo_id")
+            })
+
+        return {
+            "found": True,
+
+            "relationship_label":
+                "Limited evidence",
+
+            "relationship_type":
+                "shared_indication",
+
+            "drug_a": {
+                "id": drug_a,
+                "name": G.nodes[drug_a].get("name")
+            },
+
+            "drug_b": {
+                "id": drug_b,
+                "name": G.nodes[drug_b].get("name")
+            },
+
+            "shared_conditions":
+                condition_results,
+
+            "graph": {
+                "nodes": graph_nodes,
+                "edges": graph_edges
+            },
+
+            "message": (
+                "Both medicines are associated with one "
+                "or more of the same indications in the "
+                "current dataset. A shared indication "
+                "does not establish a biological or "
+                "clinical drug-drug interaction."
+            )
+        }
+
+    # -----------------------------------------------------
+    # No supported relationship
+    # -----------------------------------------------------
 
     return {
+        "found": False,
+
+        "relationship_label":
+            "Insufficient evidence",
+
+        "relationship_type":
+            "no_supported_relationship",
+
         "drug_a": {
-            "drug_id": drug_a_id,
-            "drug_name": GRAPH.nodes[node_a].get("name")
+            "id": drug_a,
+            "name": G.nodes[drug_a].get("name")
         },
+
         "drug_b": {
-            "drug_id": drug_b_id,
-            "drug_name": GRAPH.nodes[node_b].get("name")
+            "id": drug_b,
+            "name": G.nodes[drug_b].get("name")
         },
-        "relationship_label": relationship_label,
-        "message": message,
-        "shared_target_count": len(shared_targets),
-        "shared_targets": shared_targets,
-        "paths": paths
+
+        "graph": {
+            "nodes": [],
+            "edges": []
+        },
+
+        "message": (
+            "Insufficient evidence in the current "
+            "knowledge graph to establish a supported "
+            "relationship between these medicines."
+        )
     }
 
 
-# ---------------------------------------------------------
-# GRAPH STATISTICS
-# ---------------------------------------------------------
+# =========================================================
+# 12. GRAPH STATISTICS
+# =========================================================
 
-def get_graph_stats():
+def print_graph_statistics():
 
     drug_nodes = [
         node
-        for node, data in GRAPH.nodes(data=True)
-        if data.get("node_type") == "drug"
+        for node, data in G.nodes(data=True)
+        if data.get("type") == "drug"
+    ]
+
+    condition_nodes = [
+        node
+        for node, data in G.nodes(data=True)
+        if data.get("type") == "condition"
     ]
 
     target_nodes = [
         node
-        for node, data in GRAPH.nodes(data=True)
-        if data.get("node_type") == "target"
+        for node, data in G.nodes(data=True)
+        if data.get("type") == "target"
     ]
 
-    return {
-        "drug_nodes": len(drug_nodes),
-        "target_nodes": len(target_nodes),
-        "total_nodes": GRAPH.number_of_nodes(),
-        "total_edges": GRAPH.number_of_edges()
-    }
+    print()
+    print("MEDGRAPH KNOWLEDGE GRAPH")
+    print("--------------------------------------")
+    print("Total nodes:", G.number_of_nodes())
+    print("Total edges:", G.number_of_edges())
+    print("Drug nodes:", len(drug_nodes))
+    print("Condition nodes:", len(condition_nodes))
+    print("Target nodes:", len(target_nodes))
+    print("--------------------------------------")
 
 
-# ---------------------------------------------------------
-# TEST WHEN RUN DIRECTLY
-# ---------------------------------------------------------
+# =========================================================
+# 13. TEST ANALYSIS
+# =========================================================
 
 if __name__ == "__main__":
 
-    print("MedGraph Knowledge Graph")
-    print("------------------------")
+    print_graph_statistics()
 
-    stats = get_graph_stats()
+    print()
+    print("TESTING MEDICINE ANALYSIS")
+    print("======================================")
 
-    print(f"Drug nodes: {stats['drug_nodes']}")
-    print(f"Target nodes: {stats['target_nodes']}")
-    print(f"Total nodes: {stats['total_nodes']}")
-    print(f"Total edges: {stats['total_edges']}")
+    result = analyze_medicines(
+        "CHLORPROMAZINE",
+        "OLANZAPINE"
+    )
+
+    print(
+        json.dumps(
+            result,
+            indent=4
+        )
+    )

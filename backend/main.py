@@ -7,14 +7,10 @@ from condition_lookup import (
 )
 
 from graph_engine import (
-    analyze_drug_pair,
-    get_graph_stats
+    G,
+    analyze_medicines
 )
 
-
-# ---------------------------------------------------------
-# CREATE FASTAPI APPLICATION
-# ---------------------------------------------------------
 
 app = FastAPI(
     title="MedGraph API",
@@ -26,11 +22,6 @@ app = FastAPI(
 )
 
 
-# ---------------------------------------------------------
-# CORS
-# Allows the React frontend to communicate with FastAPI
-# ---------------------------------------------------------
-
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -39,10 +30,6 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-
-# ---------------------------------------------------------
-# HOME
-# ---------------------------------------------------------
 
 @app.get("/")
 def home():
@@ -53,10 +40,6 @@ def home():
     }
 
 
-# ---------------------------------------------------------
-# HEALTH CHECK
-# ---------------------------------------------------------
-
 @app.get("/health")
 def health():
     return {
@@ -64,13 +47,8 @@ def health():
     }
 
 
-# ---------------------------------------------------------
-# GET ALL CONDITIONS / INDICATIONS
-# ---------------------------------------------------------
-
 @app.get("/conditions")
 def conditions():
-
     condition_list = get_conditions()
 
     return {
@@ -79,16 +57,8 @@ def conditions():
     }
 
 
-# ---------------------------------------------------------
-# GET MEDICINES ASSOCIATED WITH A CONDITION
-#
-# Example:
-# /medicines?condition=Hypertension
-# ---------------------------------------------------------
-
 @app.get("/medicines")
 def medicines(condition: str):
-
     medicine_list = get_medicines_for_condition(condition)
 
     return {
@@ -98,35 +68,42 @@ def medicines(condition: str):
     }
 
 
-# ---------------------------------------------------------
-# KNOWLEDGE GRAPH STATISTICS
-# ---------------------------------------------------------
-
 @app.get("/graph/stats")
 def graph_stats():
 
-    return get_graph_stats()
+    drug_nodes = sum(
+        1
+        for _, data in G.nodes(data=True)
+        if data.get("type") == "drug"
+    )
 
+    condition_nodes = sum(
+        1
+        for _, data in G.nodes(data=True)
+        if data.get("type") == "condition"
+    )
 
-# ---------------------------------------------------------
-# ANALYZE TWO MEDICINES
-#
-# Example:
-# /analyze?drug_a_id=CHEMBL24&drug_b_id=CHEMBL13
-#
-# This searches the knowledge graph for shared
-# biological targets between the two medicines.
-# ---------------------------------------------------------
+    target_nodes = sum(
+        1
+        for _, data in G.nodes(data=True)
+        if data.get("type") == "target"
+    )
+
+    return {
+        "drug_nodes": drug_nodes,
+        "condition_nodes": condition_nodes,
+        "target_nodes": target_nodes,
+        "total_nodes": G.number_of_nodes(),
+        "total_edges": G.number_of_edges()
+    }
+
 
 @app.get("/analyze")
 def analyze(
-    drug_a_id: str,
-    drug_b_id: str
+    drug_a: str,
+    drug_b: str
 ):
-
-    result = analyze_drug_pair(
-        drug_a_id,
-        drug_b_id
+    return analyze_medicines(
+        drug_a,
+        drug_b
     )
-
-    return result

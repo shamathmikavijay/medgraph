@@ -1,58 +1,111 @@
-from graph_engine import GRAPH
+from graph_engine import G
 
 
-print("\nMedGraph - Supported Medicine Pairs")
-print("-----------------------------------")
-
-found = 0
+# =========================================================
+# FIND ALL MEDICINE PAIRS THAT SHARE BIOLOGICAL TARGETS
+# =========================================================
 
 drug_nodes = [
     node
-    for node, data in GRAPH.nodes(data=True)
-    if data.get("node_type") == "drug"
+    for node, data in G.nodes(data=True)
+    if data.get("type") == "drug"
 ]
 
+connected_pairs = []
+
+
+# Compare every pair of medicines
 for i in range(len(drug_nodes)):
+
     for j in range(i + 1, len(drug_nodes)):
 
         drug_a = drug_nodes[i]
         drug_b = drug_nodes[j]
 
-        targets_a = set(GRAPH.neighbors(drug_a))
-        targets_b = set(GRAPH.neighbors(drug_b))
+        # Get biological targets of Drug A
+        targets_a = {
+            neighbour
+            for neighbour in G.neighbors(drug_a)
+            if G.nodes[neighbour].get("type") == "target"
+        }
 
-        shared = targets_a.intersection(targets_b)
+        # Get biological targets of Drug B
+        targets_b = {
+            neighbour
+            for neighbour in G.neighbors(drug_b)
+            if G.nodes[neighbour].get("type") == "target"
+        }
 
-        if shared:
+        # Find shared biological targets
+        shared_targets = targets_a.intersection(targets_b)
 
-            a = GRAPH.nodes[drug_a]
-            b = GRAPH.nodes[drug_b]
+        if shared_targets:
 
-            target_names = [
-                GRAPH.nodes[target].get("name")
-                for target in shared
-            ]
+            connected_pairs.append({
+                "drug_a_id": drug_a,
+                "drug_a_name": G.nodes[drug_a].get("name"),
 
-            print()
-            print(
-                f"{a.get('name')} ({a.get('id')})"
-            )
-            print(
-                f"   <--> {b.get('name')} ({b.get('id')})"
-            )
-            print(
-                f"   Shared target(s): "
-                f"{', '.join(target_names)}"
-            )
+                "drug_b_id": drug_b,
+                "drug_b_name": G.nodes[drug_b].get("name"),
 
-            found += 1
+                "shared_targets": list(shared_targets),
 
-            if found == 10:
-                break
-
-    if found == 10:
-        break
+                "shared_target_count": len(shared_targets)
+            })
 
 
-if found == 0:
-    print("No shared-target medicine pairs found.")
+# =========================================================
+# SORT PAIRS
+# =========================================================
+
+connected_pairs.sort(
+    key=lambda pair: pair["shared_target_count"],
+    reverse=True
+)
+
+
+# =========================================================
+# PRINT TOP 20 PAIRS
+# =========================================================
+
+print()
+print("MEDGRAPH - MEDICINE PAIRS WITH SHARED TARGETS")
+print("================================================")
+
+for pair in connected_pairs[:20]:
+
+    print()
+
+    print(
+        pair["drug_a_name"],
+        "+",
+        pair["drug_b_name"]
+    )
+
+    print(
+        "Shared biological targets:",
+        pair["shared_target_count"]
+    )
+
+    for target_id in pair["shared_targets"]:
+
+        target_name = G.nodes[target_id].get("name")
+
+        print(
+            "   ->",
+            target_name,
+            f"({target_id})"
+        )
+
+
+# =========================================================
+# TOTAL
+# =========================================================
+
+print()
+print("========================================")
+
+print(
+    "Total connected medicine pairs:",
+    len(connected_pairs)
+)
